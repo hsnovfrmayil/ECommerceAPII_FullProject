@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\ECommerceAPII.Application\ECommerceAPII.Application.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Filters\" />
+    <None Remove="Services\" />
+    <None Remove="Operations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Filters\" />
+    <Folder Include="Services\" />
+    <Folder Include="Operations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.2" />
+  </ItemGroup>
+</Project>

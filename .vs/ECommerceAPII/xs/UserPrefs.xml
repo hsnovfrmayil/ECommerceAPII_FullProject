@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{17C945AE-977B-4EDF-BE88-F79BB490C0CE}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ECommerceAPII.API/Controllers/ProductController.cs">
+    <Files>
+      <File FileName="Infrastructure/ECommerceAPII.Persistence/Contexts/ECommerceAPIIDbContext.cs" />
+      <File FileName="Infrastructure/ECommerceAPII.Infrastructure/Filters/ValidationFilter.cs" />
+      <File FileName="Core/ECommerceAPII.Application/ViewModels/Products/VM_Create_Product.cs" />
+      <File FileName="Core/ECommerceAPII.Application/ViewModels/Products/VM_Update_Product.cs" />
+      <File FileName="Presentation/ECommerceAPII.API/Controllers/ProductController.cs" Line="42" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ECommerceAPII" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="ECommerceAPII.Application" expanded="True">
+                <Node name="RequestParameters" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="ECommerceAPII.Infrastructure" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Filters" expanded="True" />
+              </Node>
+              <Node name="ECommerceAPII.Persistence" expanded="True">
+                <Node name="Contexts" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="ECommerceAPII.API" expanded="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="PackageDependencies" expanded="True" />
+                </Node>
+                <Node name="Controllers" expanded="True">
+                  <Node name="ProductController.cs" selected="True" />
+                </Node>
+                <Node name="wwwroot" expanded="True">
+                  <Node name="resource" expanded="True">
+                    <Node name="product-images" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Presentation.ECommerceAPII.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

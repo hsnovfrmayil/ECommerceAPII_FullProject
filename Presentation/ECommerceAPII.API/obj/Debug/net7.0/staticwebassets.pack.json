@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/wwwroot/resource/product-images/Screenshot2024-08-08at015817.jpg",
+      "PackagePath": "staticwebassets/resource/product-images/Screenshot2024-08-08at015817.jpg"
+    },
+    {
+      "Id": "/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/wwwroot/resource/product-images/Screenshot2024-08-08at015817.png",
+      "PackagePath": "staticwebassets/resource/product-images/Screenshot2024-08-08at015817.png"
+    },
+    {
+      "Id": "/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/wwwroot/resource/product-images/Screenshot2024-08-08at015948.png",
+      "PackagePath": "staticwebassets/resource/product-images/Screenshot2024-08-08at015948.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.ECommerceAPII.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.ECommerceAPII.API.props",
+      "PackagePath": "build\\ECommerceAPII.API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ECommerceAPII.API.props",
+      "PackagePath": "buildMultiTargeting\\ECommerceAPII.API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ECommerceAPII.API.props",
+      "PackagePath": "buildTransitive\\ECommerceAPII.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

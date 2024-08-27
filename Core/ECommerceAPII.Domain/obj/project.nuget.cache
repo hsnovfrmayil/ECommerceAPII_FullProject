@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9cPFsDNTGKToTXi9lp+vxyBuApdS5qWQZSgtUCTuyVh/JZOuEs+FfiDE79bYJUckYXsfO4d4CqmcQbvHkDBnAQ==",
+  "success": true,
+  "projectFilePath": "/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/ECommerceAPII.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/bin/Debug/net7.0/ECommerceAPII.Domain.deps.json
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/bin/Debug/net7.0/ECommerceAPII.Domain.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/bin/Debug/net7.0/ECommerceAPII.Domain.pdb
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ECommerceAPII.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ECommerceAPII.Domain.AssemblyInfoInputs.cache
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ECommerceAPII.Domain.AssemblyInfo.cs
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ECommerceAPII.Domain.csproj.CoreCompileInputs.cache
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ECommerceAPII.Domain.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/refint/ECommerceAPII.Domain.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ECommerceAPII.Domain.pdb
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ref/ECommerceAPII.Domain.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ECommerceAPII.Domain.csproj.AssemblyReference.cache

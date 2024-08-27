@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "RULSYDMiYk+SsiI3IWBmF35NQv1WN/aR8V1/XnPSSoQ=",
+  "Source": "ECommerceAPII.API",
+  "BasePath": "_content/ECommerceAPII.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommerceAPII.API/wwwroot",
+      "Source": "ECommerceAPII.API",
+      "ContentRoot": "/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/wwwroot/",
+      "BasePath": "_content/ECommerceAPII.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

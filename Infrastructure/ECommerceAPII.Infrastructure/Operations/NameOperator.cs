@@ -1,0 +1,52 @@
+﻿using System;
+namespace ECommerceAPII.Infrastructure.Operations;
+
+public static class NameOperator
+{
+    public static string CharacterRegulatory(string name)
+        =>name.Replace("Ç", "C")
+           .Replace("ç", "c")
+           .Replace("Ğ", "G")
+           .Replace("ğ", "g")
+           .Replace("İ", "I")
+           .Replace("ı", "i")
+           .Replace("Ö", "O")
+           .Replace("ö", "o")
+           .Replace("Ş", "S")
+           .Replace("ş", "s")
+           .Replace("Ü", "U")
+           .Replace("ü", "u")
+           .Replace(".", "")
+           .Replace(",", "")
+           .Replace("!", "")
+           .Replace("?", "")
+           .Replace(":", "")
+           .Replace(";", "")
+           .Replace("(", "")
+           .Replace(")", "")
+           .Replace("[", "")
+           .Replace("]", "")
+           .Replace("{", "")
+           .Replace("}", "")
+           .Replace("'", "")
+           .Replace("\"", "")
+           .Replace("–", "")
+           .Replace("—", "")
+           .Replace("...", "")
+           .Replace("$", "")
+           .Replace("%", "")
+           .Replace("&", "")
+           .Replace("*", "")
+           .Replace("+", "")
+           .Replace("=", "")
+           .Replace("#", "")
+           .Replace("@", "")
+           .Replace("^", "")
+           .Replace("~", "")
+           .Replace("|", "")
+           .Replace("\\", "")
+           .Replace("/", "")
+           .Replace(" ", "");
+    
+}
+
