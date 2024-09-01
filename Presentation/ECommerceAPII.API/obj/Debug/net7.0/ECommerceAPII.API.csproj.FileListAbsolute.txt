@@ -8,6 +8,9 @@
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/ECommerceAPII.API.pdb
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/FluentValidation.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/MediatR.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.Razor.Host.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
@@ -27,6 +30,7 @@
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/System.Security.Permissions.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/ECommerceAPII.Application.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/ECommerceAPII.Domain.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/ECommerceAPII.Infrastructure.dll

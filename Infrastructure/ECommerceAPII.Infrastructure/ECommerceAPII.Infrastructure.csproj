@@ -13,11 +13,21 @@
     <None Remove="Filters\" />
     <None Remove="Services\" />
     <None Remove="Operations\" />
+    <None Remove="Services\Storage\" />
+    <None Remove="Services\Storage\Local\" />
+    <None Remove="Services\Storage\Azure\" />
+    <None Remove="Services\Storage\AWS\" />
+    <None Remove="Enums\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Filters\" />
     <Folder Include="Services\" />
     <Folder Include="Operations\" />
+    <Folder Include="Services\Storage\" />
+    <Folder Include="Services\Storage\Local\" />
+    <Folder Include="Services\Storage\Azure\" />
+    <Folder Include="Services\Storage\AWS\" />
+    <Folder Include="Enums\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.2" />

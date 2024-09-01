@@ -19,10 +19,31 @@
     <None Remove="Validators\" />
     <None Remove="Validators\Products\" />
     <None Remove="RequestParameters\" />
-    <None Remove="Services\" />
     <None Remove="Repositories\File\" />
     <None Remove="Repositories\ProductImageFile\" />
     <None Remove="Repositories\InvoiceFile\" />
+    <None Remove="Abstractions\" />
+    <None Remove="Abstractions\Storage\" />
+    <None Remove="Abstractions\Storage\Local\" />
+    <None Remove="Features\" />
+    <None Remove="Features\Commands\" />
+    <None Remove="Features\Queries\" />
+    <None Remove="Features\Commands\Product\" />
+    <None Remove="Features\Commands\Product\CreateProduct\" />
+    <None Remove="Features\Queries\Product\" />
+    <None Remove="Features\Queries\Product\GetAllProducts\" />
+    <None Remove="Features\Queries\Product\GetByIdProduct\" />
+    <None Remove="Features\Commands\Product\UpdateProduct\" />
+    <None Remove="Features\Commands\Product\RemoveProduct\" />
+    <None Remove="Features\Commands\ProductImageFile\" />
+    <None Remove="Features\Commands\ProductImageFile\UploadProductImage\" />
+    <None Remove="Features\Queries\ProductImageFile\" />
+    <None Remove="Features\Queries\ProductImageFile\GetProductImages\" />
+    <None Remove="Features\Commands\ProductImageFile\RemoveProductImage\" />
+    <None Remove="Features\Commands\AppUser\" />
+    <None Remove="Features\Commands\AppUser\CreateUser\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Features\Commands\AppUser\LoginUser\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -34,13 +55,37 @@
     <Folder Include="Validators\" />
     <Folder Include="Validators\Products\" />
     <Folder Include="RequestParameters\" />
-    <Folder Include="Services\" />
     <Folder Include="Repositories\File\" />
     <Folder Include="Repositories\ProductImageFile\" />
     <Folder Include="Repositories\InvoiceFile\" />
+    <Folder Include="Abstractions\" />
+    <Folder Include="Abstractions\Storage\" />
+    <Folder Include="Abstractions\Storage\Local\" />
+    <Folder Include="Features\" />
+    <Folder Include="Features\Commands\" />
+    <Folder Include="Features\Queries\" />
+    <Folder Include="Features\Commands\Product\" />
+    <Folder Include="Features\Commands\Product\CreateProduct\" />
+    <Folder Include="Features\Queries\Product\" />
+    <Folder Include="Features\Queries\Product\GetAllProducts\" />
+    <Folder Include="Features\Queries\Product\GetByIdProduct\" />
+    <Folder Include="Features\Commands\Product\UpdateProduct\" />
+    <Folder Include="Features\Commands\Product\RemoveProduct\" />
+    <Folder Include="Features\Commands\ProductImageFile\" />
+    <Folder Include="Features\Commands\ProductImageFile\UploadProductImage\" />
+    <Folder Include="Features\Queries\ProductImageFile\" />
+    <Folder Include="Features\Queries\ProductImageFile\GetProductImages\" />
+    <Folder Include="Features\Commands\ProductImageFile\RemoveProductImage\" />
+    <Folder Include="Features\Commands\AppUser\" />
+    <Folder Include="Features\Commands\AppUser\CreateUser\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Features\Commands\AppUser\LoginUser\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="7.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
   </ItemGroup>
 </Project>

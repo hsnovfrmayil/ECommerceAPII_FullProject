@@ -1,8 +1,10 @@
 ﻿using System;
 using ECommerceAPI.Persistence;
 using ECommerceAPII.Application.Repositories;
+using ECommerceAPII.Domain.Entities.Identity;
 using ECommerceAPII.Persistence.Contexts;
 using ECommerceAPII.Persistence.Repositories;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -14,7 +16,14 @@ public static class ServiceRegistration
     {
         services.AddDbContext<ECommerceAPIIDbContext>(options=>
                     options.UseNpgsql(Configuration.ConnectionString()),ServiceLifetime.Singleton);
-
+        services.AddIdentity<AppUser, AppRole>(options =>
+        {
+            options.Password.RequiredLength = 3;
+            options.Password.RequireNonAlphanumeric = false;
+            options.Password.RequireDigit = false;
+            options.Password.RequireLowercase = false;
+            options.Password.RequireUppercase = false;
+        }).AddEntityFrameworkStores<ECommerceAPIIDbContext>();
 
         services.AddSingleton<IProductWriteRepository, ProductWriteRepository>();
         services.AddSingleton<IProductReadRepository, ProductReadRepository>();

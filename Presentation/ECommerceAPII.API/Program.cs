@@ -1,4 +1,6 @@
-﻿using ECommerceAPII.Infrastructure;
+﻿using ECommerceAPII.Application;
+using ECommerceAPII.Infrastructure;
+using ECommerceAPII.Infrastructure.Services.Storage.Local;
 using ECommerceAPII.Persistence;
 using FluentValidation.AspNetCore;
 
@@ -10,6 +12,10 @@ builder.Services.AddPersistenceServices();
 
 builder.Services.AddInfrastructureServices();
 
+builder.Services.AddApplicationServices();
+
+builder.Services.AddStorage<LocalStorage>();
+
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
 {
     //policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
@@ -18,7 +24,7 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
 
 //builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>())
 builder.Services.AddControllers();
-      //.AddFluentValidation(fv =>
+      //.AddFluentValidation(fv => 
       //      fv.RegisterValidatorsFromAssemblyContaining<Program>());
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

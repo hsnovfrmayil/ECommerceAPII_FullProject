@@ -1,12 +1,11 @@
 ﻿using System;
-using ECommerceAPII.Application.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
 using ECommerceAPII.Infrastructure.Operations;
 
 namespace ECommerceAPII.Infrastructure.Services;
 
-public class FileService : IFileService
+public class FileService
 {
     readonly IWebHostEnvironment _webHostEnvironment;
 
