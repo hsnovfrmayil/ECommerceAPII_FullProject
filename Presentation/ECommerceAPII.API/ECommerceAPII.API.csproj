@@ -11,17 +11,27 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.20" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\ECommerceAPII.Application\ECommerceAPII.Application.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+      <Targets></Targets>
+      <OutputItemType></OutputItemType>
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
     </ProjectReference>
     <ProjectReference Include="..\..\Infrastructure\ECommerceAPII.Persistence\ECommerceAPII.Persistence.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+      <Targets></Targets>
+      <OutputItemType></OutputItemType>
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
     </ProjectReference>
     <ProjectReference Include="..\..\Infrastructure\ECommerceAPII.Infrastructure\ECommerceAPII.Infrastructure.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+      <Targets></Targets>
+      <OutputItemType></OutputItemType>
+      <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

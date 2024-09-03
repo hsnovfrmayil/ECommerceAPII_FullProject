@@ -18,6 +18,7 @@
     <None Remove="Services\Storage\Azure\" />
     <None Remove="Services\Storage\AWS\" />
     <None Remove="Enums\" />
+    <None Remove="Services\Token\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Filters\" />
@@ -28,8 +29,10 @@
     <Folder Include="Services\Storage\Azure\" />
     <Folder Include="Services\Storage\AWS\" />
     <Folder Include="Enums\" />
+    <Folder Include="Services\Token\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.0" />
   </ItemGroup>
 </Project>

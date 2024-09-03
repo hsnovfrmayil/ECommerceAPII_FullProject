@@ -6,6 +6,7 @@ using ECommerceAPII.Application.Features.Commands.ProductImageFile.UploadProduct
 using ECommerceAPII.Application.Features.Queries.Product.GetAllProducts;
 using ECommerceAPII.Application.Features.Queries.Product.GetByIdProduct;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerceAPII.API.Controllers;
@@ -13,6 +14,7 @@ namespace ECommerceAPII.API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Authorize(AuthenticationSchemes="Admin")]
 public class ProductController:ControllerBase
 {
     readonly IMediator _mediator;

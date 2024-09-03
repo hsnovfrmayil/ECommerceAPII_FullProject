@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SdkXu81steTdYYXT3D6OEyp8veFrNcwlt36V7j9xOrQfhpDTh63Imx/jRgLgtWmRcUkKrWPzTEDAQ8vWbhJhow==",
+  "dgSpecHash": "iagHiNFAyoofR1JW6kWFh4WOlupqz81+tiybpeHnl4p7L0GKG6A5DT6SxcRkU0/q7gKS72s4/qbbp8PjhMk9Yg==",
   "success": true,
   "projectFilePath": "/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/ECommerceAPII.Domain.csproj",
   "expectedPackageFiles": [
@@ -50,9 +50,7 @@
     "/Users/fermayilhesenov/.nuget/packages/system.security.cryptography.xml/4.5.0/system.security.cryptography.xml.4.5.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.security.permissions/4.5.0/system.security.permissions.4.5.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.security.principal.windows/4.5.0/system.security.principal.windows.4.5.0.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+    "/Users/fermayilhesenov/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

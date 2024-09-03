@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/ECommerceAPII.MVC.props" />
+</Project>

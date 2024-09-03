@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sOjkYU/+wQ/xw5WBNeUGttFL/Q6nekKZMMAkdBrnqjc0SGzy485k0rQsPqFmsMKwD6zkUJ7q9NDOR23aLVV+cw==",
+  "dgSpecHash": "ehGDRLmbCJMSRq1TrCknFmIXC1jwY/ptxE4JIUTex6Zl7ihmmQsx+OfgOTvhxqHkS1S8VdvZcxRXot9Hbw6zCA==",
   "success": true,
   "projectFilePath": "/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/ECommerceAPII.Application.csproj",
   "expectedPackageFiles": [
@@ -70,6 +70,7 @@
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.filesystemglobbing/1.1.0/microsoft.extensions.filesystemglobbing.1.1.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.globalization.cultureinfocache/1.1.1/microsoft.extensions.globalization.cultureinfocache.1.1.1.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.hosting.abstractions/2.2.0/microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.http/7.0.0/microsoft.extensions.http.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.identity.core/7.0.0/microsoft.extensions.identity.core.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.identity.stores/7.0.0/microsoft.extensions.identity.stores.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.localization/1.1.1/microsoft.extensions.localization.1.1.1.nupkg.sha512",
@@ -186,9 +187,7 @@
     "/Users/fermayilhesenov/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.xml.xmldocument/4.0.1/system.xml.xmldocument.4.0.1.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.xml.xpath/4.0.1/system.xml.xpath.4.0.1.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/system.xml.xpath.xdocument/4.0.1/system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+    "/Users/fermayilhesenov/.nuget/packages/system.xml.xpath.xdocument/4.0.1/system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

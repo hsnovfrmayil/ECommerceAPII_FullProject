@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sc5qR1IHzmfuSOYpHLzEPOCVAtWoTH3wu+XSzIQS7BraQUVg8M5yCqtG1FnbIAxtZy/XLEaKQTN6CyTvV9i4Vw==",
+  "dgSpecHash": "EO3f8H2DPPnsG0pEDXnyDou90MwGzZ90PV1AwuRIjvT+O+0KydqNXtmdaf20Tk4XUMQk2ttxeyIoFvaKElJObA==",
   "success": true,
   "projectFilePath": "/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/ECommerceAPII.Persistence.csproj",
   "expectedPackageFiles": [
     "/Users/fermayilhesenov/.nuget/packages/fluentvalidation/7.0.0/fluentvalidation.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/fluentvalidation.aspnetcore/7.0.0/fluentvalidation.aspnetcore.7.0.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/google.apis/1.68.0/google.apis.1.68.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/google.apis.auth/1.68.0/google.apis.auth.1.68.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/google.apis.core/1.68.0/google.apis.core.1.68.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/mediatr/7.0.0/mediatr.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/7.0.0/mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
@@ -75,6 +78,7 @@
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.globalization.cultureinfocache/1.1.1/microsoft.extensions.globalization.cultureinfocache.1.1.1.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.hosting.abstractions/2.2.0/microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.http/7.0.0/microsoft.extensions.http.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.identity.core/7.0.0/microsoft.extensions.identity.core.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.identity.stores/7.0.0/microsoft.extensions.identity.stores.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/microsoft.extensions.localization/1.1.1/microsoft.extensions.localization.1.1.1.nupkg.sha512",
@@ -93,7 +97,7 @@
     "/Users/fermayilhesenov/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/npgsql/7.0.0/npgsql.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.0/npgsql.entityframeworkcore.postgresql.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -114,7 +118,7 @@
     "/Users/fermayilhesenov/.nuget/packages/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.appcontext/4.3.0/system.appcontext.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/system.codedom/7.0.0/system.codedom.7.0.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.collections.immutable/1.2.0/system.collections.immutable.1.2.0.nupkg.sha512",
@@ -142,6 +146,7 @@
     "/Users/fermayilhesenov/.nuget/packages/system.io.filesystem.primitives/4.3.0/system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.linq/4.3.0/system.linq.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.linq.expressions/4.3.0/system.linq.expressions.4.3.0.nupkg.sha512",
+    "/Users/fermayilhesenov/.nuget/packages/system.management/7.0.2/system.management.7.0.2.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.net.http/4.3.0/system.net.http.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.net.primitives/4.3.0/system.net.primitives.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.net.sockets/4.3.0/system.net.sockets.4.3.0.nupkg.sha512",
@@ -195,9 +200,7 @@
     "/Users/fermayilhesenov/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.xml.xmldocument/4.0.1/system.xml.xmldocument.4.0.1.nupkg.sha512",
     "/Users/fermayilhesenov/.nuget/packages/system.xml.xpath/4.0.1/system.xml.xpath.4.0.1.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/system.xml.xpath.xdocument/4.0.1/system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
-    "/Users/fermayilhesenov/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512"
+    "/Users/fermayilhesenov/.nuget/packages/system.xml.xpath.xdocument/4.0.1/system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

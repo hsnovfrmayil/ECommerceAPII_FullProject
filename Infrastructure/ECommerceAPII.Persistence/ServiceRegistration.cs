@@ -1,9 +1,12 @@
 ﻿using System;
 using ECommerceAPI.Persistence;
+using ECommerceAPII.Application.Abstractions.Services;
+using ECommerceAPII.Application.Abstractions.Services.Authentications;
 using ECommerceAPII.Application.Repositories;
 using ECommerceAPII.Domain.Entities.Identity;
 using ECommerceAPII.Persistence.Contexts;
 using ECommerceAPII.Persistence.Repositories;
+using ECommerceAPII.Persistence.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -38,6 +41,11 @@ public static class ServiceRegistration
         services.AddSingleton<IInvoiceFileWriteRepository,InvoiceFileWriteRepository>();
         services.AddSingleton<IFileReadRepository,FileReadRepository>();
         services.AddSingleton<IFileWriteRepository,FileWriteRepository>();
+
+        services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IAuthService, AuthService>();
+        services.AddScoped<IInternalAuthentication, AuthService>();
+        services.AddScoped < IExternalAuthentication, AuthService>();
 
     }
 }

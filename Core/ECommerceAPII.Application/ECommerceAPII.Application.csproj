@@ -44,6 +44,14 @@
     <None Remove="Features\Commands\AppUser\CreateUser\" />
     <None Remove="Exceptions\" />
     <None Remove="Features\Commands\AppUser\LoginUser\" />
+    <None Remove="Abstractions\Token\" />
+    <None Remove="DTOs\" />
+    <None Remove="Features\Commands\AppUser\GoogleLogin\" />
+    <None Remove="DTOs\Facebook\" />
+    <None Remove="Abstractions\Services\" />
+    <None Remove="DTOs\User\" />
+    <None Remove="Abstractions\Services\Authentications\" />
+    <None Remove="Features\Commands\AppUser\RefreshTokenLogin\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -80,6 +88,14 @@
     <Folder Include="Features\Commands\AppUser\CreateUser\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Features\Commands\AppUser\LoginUser\" />
+    <Folder Include="Abstractions\Token\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Features\Commands\AppUser\GoogleLogin\" />
+    <Folder Include="DTOs\Facebook\" />
+    <Folder Include="Abstractions\Services\" />
+    <Folder Include="DTOs\User\" />
+    <Folder Include="Abstractions\Services\Authentications\" />
+    <Folder Include="Features\Commands\AppUser\RefreshTokenLogin\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="7.0.0" />
@@ -87,5 +103,6 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="MediatR" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
   </ItemGroup>
 </Project>

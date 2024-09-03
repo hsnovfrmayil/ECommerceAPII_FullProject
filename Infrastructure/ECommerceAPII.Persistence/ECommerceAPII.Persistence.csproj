@@ -24,6 +24,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.68.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Contexts\" />
@@ -34,6 +35,7 @@
     <None Remove="Repositories\File\" />
     <None Remove="Repositories\InvoiceFile\" />
     <None Remove="Repositories\ProductImageFile\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contexts\" />
@@ -44,5 +46,6 @@
     <Folder Include="Repositories\File\" />
     <Folder Include="Repositories\InvoiceFile\" />
     <Folder Include="Repositories\ProductImageFile\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 </Project>

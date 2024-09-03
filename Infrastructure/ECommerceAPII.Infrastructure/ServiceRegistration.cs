@@ -1,8 +1,10 @@
 ﻿using System;
 using ECommerceAPII.Application.Abstractions.Storage;
+using ECommerceAPII.Application.Abstractions.Token;
 using ECommerceAPII.Infrastructure.Enums;
 using ECommerceAPII.Infrastructure.Services;
 using ECommerceAPII.Infrastructure.Services.Storage.Local;
+using ECommerceAPII.Infrastructure.Services.Token;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ECommerceAPII.Infrastructure;
@@ -12,6 +14,7 @@ public static class ServiceRegistration
     public static void AddInfrastructureServices(this IServiceCollection serviceCollection)
     {
         serviceCollection.AddScoped<IStorageService,StorageService>();
+        serviceCollection.AddScoped<ITokenHandler, TokenHandler>();
     }
 
     public static void AddStorage<T>(this IServiceCollection serviceCollection) where T:class, IStorage

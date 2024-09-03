@@ -1,8 +1,19 @@
 ﻿<Properties StartupConfiguration="{17C945AE-977B-4EDF-BE88-F79BB490C0CE}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/ECommerceAPII.Application/Features/Commands/AppUser/LoginUser/LoginUserCommandHandler.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/ECommerceAPII.Persistence/Services/UserService.cs">
     <Files>
-      <File FileName="Presentation/ECommerceAPII.API/Controllers/UsersController.cs" Line="28" Column="21" />
-      <File FileName="Core/ECommerceAPII.Application/Features/Commands/AppUser/LoginUser/LoginUserCommandHandler.cs" Line="35" Column="10" />
+      <File FileName="Infrastructure/ECommerceAPII.Persistence/Services/AuthService.cs" Line="99" Column="98" />
+      <File FileName="Core/ECommerceAPII.Application/Features/Commands/AppUser/LoginUser/LoginUserCommandHandler.cs" Line="31" Column="1" />
+      <File FileName="Presentation/ECommerceAPII.API/Program.cs" Line="49" Column="141" />
+      <File FileName="Infrastructure/ECommerceAPII.Infrastructure/Services/Token/TokenHandler.cs" Line="41" Column="53" />
+      <File FileName="Presentation/ECommerceAPII.API/Controllers/AuthController.cs" Line="1" Column="1" />
+      <File FileName="Presentation/ECommerceAPII.API/Controllers/ProductController.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/ECommerceAPII.Persistence/Services/UserService.cs" Line="52" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,47 +22,38 @@
             <Node name="Core" expanded="True">
               <Node name="ECommerceAPII.Application">
                 <Node name="Dependencies" expanded="True" />
-                <Node name="Exceptions" expanded="True" />
-                <Node name="Features" expanded="True">
+                <Node name="Abstractions" expanded="True">
+                  <Node name="Services" expanded="True" />
+                  <Node name="Token" expanded="True" />
+                </Node>
+                <Node name="DTOs" expanded="True" />
+                <Node name="Features">
                   <Node name="Commands">
-                    <Node name="AppUser">
+                    <Node name="AppUser" expanded="True">
                       <Node name="CreateUser" expanded="True" />
-                      <Node name="LoginUser">
-                        <Node name="LoginUserCommandHandler.cs" selected="True" />
-                      </Node>
+                      <Node name="LoginUser" expanded="True" />
                     </Node>
                   </Node>
                 </Node>
               </Node>
-              <Node name="ECommerceAPII.Domain" expanded="True">
-                <Node name="Entities" expanded="True">
-                  <Node name="Identity" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="ECommerceAPII.Infrastructure">
+                <Node name="Services" expanded="True">
+                  <Node name="Token" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="ECommerceAPII.Persistence">
+                <Node name="Services" expanded="True">
+                  <Node name="UserService.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="ECommerceAPII.Persistence">
-                <Node name="Contexts" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Presentation" expanded="True">
-              <Node name="ECommerceAPII.API">
-                <Node name="Controllers" expanded="True" />
-                <Node name="wwwroot" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="Presentation" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Presentation.ECommerceAPII.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/Features/Commands/AppUser/LoginUser/LoginUserCommandHandler.cs" relfile="Core/ECommerceAPII.Application/Features/Commands/AppUser/LoginUser/LoginUserCommandHandler.cs" line="37" column="9" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

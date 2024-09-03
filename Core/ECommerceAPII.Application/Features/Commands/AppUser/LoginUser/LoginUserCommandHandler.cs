@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ECommerceAPII.Application.Abstractions.Services;
+using ECommerceAPII.Application.Abstractions.Token;
+using ECommerceAPII.Application.DTOs;
 using ECommerceAPII.Application.Exceptions;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -8,33 +10,21 @@ namespace ECommerceAPII.Application.Features.Commands.AppUser.LoginUser;
 
 public class LoginUserCommandHandler : IRequestHandler<LoginUserCommandRequest, LoginUserCommandResponse>
 {
-    readonly UserManager<Path.AppUser> _userManager;
-    readonly SignInManager<Path.AppUser> _signInManager;
+    readonly IAuthService _authService;
 
-    public LoginUserCommandHandler(UserManager<Path.AppUser> userManager, SignInManager<Path.AppUser> signInManager)
+    public LoginUserCommandHandler(IAuthService authService)
     {
-        _userManager = userManager;
-        _signInManager = signInManager;
+        _authService = authService; 
     }
 
     public async Task<LoginUserCommandResponse> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
     {
-        Path.AppUser user = await _userManager.FindByNameAsync(request.UsernameOrEmail);
+        var token= await _authService.LoginAsync(request.UsernameOrEmail,request.Password,15);
 
-        if (user == null)
-            user = await _userManager.FindByEmailAsync(request.UsernameOrEmail);
-
-        if (user == null)
-            throw new NotFoundUserException();
-
-        SignInResult result = await _signInManager.CheckPasswordSignInAsync(user,request.Password,false);
-
-        if (result.Succeeded)
+        return new LoginUserCommandSuccessResponse()
         {
-
-        }
-
-        return new();
+            Token = token
+        };
     }
 }
 
