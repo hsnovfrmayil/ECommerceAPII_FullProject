@@ -36,6 +36,8 @@
     <None Remove="Repositories\InvoiceFile\" />
     <None Remove="Repositories\ProductImageFile\" />
     <None Remove="Services\" />
+    <None Remove="Repositories\Basket\" />
+    <None Remove="Repositories\BasketItem\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contexts\" />
@@ -47,5 +49,7 @@
     <Folder Include="Repositories\InvoiceFile\" />
     <Folder Include="Repositories\ProductImageFile\" />
     <Folder Include="Services\" />
+    <Folder Include="Repositories\Basket\" />
+    <Folder Include="Repositories\BasketItem\" />
   </ItemGroup>
 </Project>

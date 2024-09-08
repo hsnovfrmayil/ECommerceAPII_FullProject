@@ -17,14 +17,14 @@ public class AuthController :ControllerBase
     }
 
     [HttpPost("[action]")]
-    public async Task<IActionResult> Login(LoginUserCommandRequest loginUserCommandRequest)
+    public async Task<IActionResult> Login([FromBody]LoginUserCommandRequest loginUserCommandRequest)
     {
         LoginUserCommandResponse response = await _mediator.Send(loginUserCommandRequest);
         return Ok(response);
     }
 
-    [HttpPost("[action]")]
-    public async Task<IActionResult> RefreshTokenLogin([FromBody]RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest)
+    [HttpGet("[action]")]
+    public async Task<IActionResult> RefreshTokenLogin([FromForm]RefreshTokenLoginCommandRequest refreshTokenLoginCommandRequest)
     {
         RefreshTokenLoginCommandResponse response = await _mediator.Send(refreshTokenLoginCommandRequest);
         return Ok(response);

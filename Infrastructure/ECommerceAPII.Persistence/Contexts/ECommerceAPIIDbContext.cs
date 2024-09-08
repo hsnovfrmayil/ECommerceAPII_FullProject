@@ -25,7 +25,22 @@ public class ECommerceAPIIDbContext : IdentityDbContext<AppUser,AppRole,string>
 
     public DbSet<InvoiceFile> InvoiceFiles { get; set; }
 
+    public DbSet<Basket> Baskets { get; set; }
 
+    public DbSet<BasketItem> BasketItems { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        builder.Entity<Order>()
+            .HasKey(b => b.Id);
+
+        builder.Entity<Basket>().
+            HasOne(b => b.Order).
+            WithOne(b => b.Basket)
+            .HasForeignKey<Order>(b=>b.Id);
+
+        base.OnModelCreating(builder);
+    }
 
     public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
     {

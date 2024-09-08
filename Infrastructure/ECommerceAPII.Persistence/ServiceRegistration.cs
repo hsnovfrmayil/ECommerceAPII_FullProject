@@ -34,6 +34,10 @@ public static class ServiceRegistration
         services.AddSingleton<IOrderReadRepository, OrderReadRepository>();
         services.AddSingleton<ICustomerReadRepository, CustomerReadRepository>();
         services.AddSingleton<ICustomerWriteRepository, CustomerWriteRepository>();
+        services.AddSingleton<IBasketReadRepository, BasketReadRepository>();
+        services.AddSingleton<IBasketWriteRepository, BasketWriteRepository>();
+        services.AddSingleton<IBasketItemReadRepository, BasketItemReadRepository>();
+        services.AddSingleton<IBasketItemWriteRepository, BasketItemWriteRepository>();
 
         services.AddSingleton<IProductImageFileReadRepository, ProductImageFileReadRepository>();
         services.AddSingleton<IProductImageFileWriteRepository,ProductImageFileWriteRepository>();

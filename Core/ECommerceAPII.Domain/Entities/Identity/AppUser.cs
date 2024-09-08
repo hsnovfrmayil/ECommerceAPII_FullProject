@@ -10,5 +10,7 @@ public class AppUser :IdentityUser<string>
     public string? RefreshToken { get; set; }
 
     public DateTime RefreshTokenEndTime  { get; set; }
+
+    public ICollection<Basket> Baskets { get; set; }
 }
 

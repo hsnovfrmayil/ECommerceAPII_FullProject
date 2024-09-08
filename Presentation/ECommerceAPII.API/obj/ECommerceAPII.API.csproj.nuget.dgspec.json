@@ -315,6 +315,66 @@
         }
       }
     },
+    "/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/ECommerceAPII.SignalR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/ECommerceAPII.SignalR.csproj",
+        "projectName": "ECommerceAPII.SignalR",
+        "projectPath": "/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/ECommerceAPII.SignalR.csproj",
+        "packagesPath": "/Users/fermayilhesenov/.nuget/packages/",
+        "outputPath": "/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fermayilhesenov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/ECommerceAPII.Application.csproj": {
+                "projectPath": "/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/ECommerceAPII.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/ECommerceAPII.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -346,6 +406,9 @@
               },
               "/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/ECommerceAPII.Persistence.csproj": {
                 "projectPath": "/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/ECommerceAPII.Persistence.csproj"
+              },
+              "/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/ECommerceAPII.SignalR.csproj": {
+                "projectPath": "/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/ECommerceAPII.SignalR.csproj"
               }
             }
           }
@@ -367,6 +430,18 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.20, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

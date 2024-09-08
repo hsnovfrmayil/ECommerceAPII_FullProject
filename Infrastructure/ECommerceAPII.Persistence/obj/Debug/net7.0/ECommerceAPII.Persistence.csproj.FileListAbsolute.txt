@@ -16,4 +16,5 @@
 /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/obj/Debug/net7.0/ECommerceAPII.Persistence.pdb
 /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/obj/Debug/net7.0/ECommerceAPII.Persistence.genruntimeconfig.cache
 /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/obj/Debug/net7.0/ref/ECommerceAPII.Persistence.dll
-/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/obj/Debug/net7.0/ECommerceAPII.Persistence.csproj.CopyComplete
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/obj/Debug/net7.0/ECommerceAPII.Persistence.sourcelink.json
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/obj/Debug/net7.0/ECommerc.B27BC75B.Up2Date

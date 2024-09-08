@@ -12,6 +12,8 @@ public class Order :BaseEntity
 
     public Guid CustomerId { get; set; }
 
+    public Basket Basket { get; set; }
+
     public ICollection<Product> Products { get; set; }
 
     public Customer Customer { get; set; }

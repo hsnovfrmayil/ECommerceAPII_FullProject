@@ -52,6 +52,10 @@
     <None Remove="DTOs\User\" />
     <None Remove="Abstractions\Services\Authentications\" />
     <None Remove="Features\Commands\AppUser\RefreshTokenLogin\" />
+    <None Remove="Abstractions\Hubs\" />
+    <None Remove="Repositories\Basket\" />
+    <None Remove="Repositories\BasketItem\" />
+    <None Remove="ViewModels\Baskets\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -96,6 +100,10 @@
     <Folder Include="DTOs\User\" />
     <Folder Include="Abstractions\Services\Authentications\" />
     <Folder Include="Features\Commands\AppUser\RefreshTokenLogin\" />
+    <Folder Include="Abstractions\Hubs\" />
+    <Folder Include="Repositories\Basket\" />
+    <Folder Include="Repositories\BasketItem\" />
+    <Folder Include="ViewModels\Baskets\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="7.0.0" />

@@ -20,7 +20,6 @@
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
-/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.DotNet.PlatformAbstractions.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
@@ -73,3 +72,14 @@
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/obj/Debug/net7.0/ECommerceAPII.API.pdb
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/obj/Debug/net7.0/ECommerceAPII.API.genruntimeconfig.cache
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/obj/Debug/net7.0/ref/ECommerceAPII.API.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.AspNetCore.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Extensions.Hosting.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Extensions.Logging.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Formatting.Compact.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Settings.Configuration.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Sinks.Console.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Sinks.Debug.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Sinks.File.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Sinks.PeriodicBatching.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Sinks.PostgreSQL.dll
