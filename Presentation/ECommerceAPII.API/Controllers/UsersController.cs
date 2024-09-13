@@ -1,8 +1,10 @@
 ﻿using System;
+using ECommerceAPII.Application.Abstractions.Services;
 using ECommerceAPII.Application.Features.Commands.AppUser.CreateUser;
 using ECommerceAPII.Application.Features.Commands.AppUser.GoogleLogin;
 using ECommerceAPII.Application.Features.Commands.AppUser.LoginUser;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerceAPII.API.Controllers;
@@ -25,7 +27,5 @@ public class UsersController : ControllerBase
         CreateUserCommandResponse response = await _mediator.Send(createUserCommandRequest);
         return Ok(response);
     }
-
-   
 }
 

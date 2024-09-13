@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{17C945AE-977B-4EDF-BE88-F79BB490C0CE}|https">
-  <MonoDevelop.Ide.ItemProperties.Presentation.ECommerceAPII.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/ECommerceAPII.Persistence/Services/BasketService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs">
     <Files>
-      <File FileName="Core/ECommerceAPII.Application/Abstractions/Services/IBasketService.cs" />
-      <File FileName="Infrastructure/ECommerceAPII.Persistence/Contexts/ECommerceAPIIDbContext.cs" />
-      <File FileName="Infrastructure/ECommerceAPII.Persistence/Services/BasketService.cs" Line="44" Column="46" />
+      <File FileName="Presentation/ECommerceAPII.API/Controllers/OrdersController.cs" Line="25" Column="61" />
+      <File FileName="Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs" Line="27" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,16 +10,30 @@
           <Node name="ECommerceAPII" expanded="True">
             <Node name="Core" expanded="True">
               <Node name="ECommerceAPII.Application">
-                <Node name="Abstractions" expanded="True">
-                  <Node name="Services" expanded="True" />
+                <Node name="DTOs" expanded="True">
+                  <Node name="Order" expanded="True" />
+                </Node>
+                <Node name="Features" expanded="True">
+                  <Node name="Queries" expanded="True">
+                    <Node name="Order" expanded="True">
+                      <Node name="GetAllOrders" expanded="True" />
+                      <Node name="GetOrderById" expanded="True" />
+                    </Node>
+                    <Node name="Product" expanded="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
             <Node name="Infrastructure" expanded="True">
-              <Node name="ECommerceAPII.Persistence">
+              <Node name="ECommerceAPII.Infrastructure">
                 <Node name="Services" expanded="True">
-                  <Node name="BasketService.cs" selected="True" />
+                  <Node name="MailService.cs" selected="True" />
                 </Node>
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="ECommerceAPII.API">
+                <Node name="Controllers" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -32,8 +44,8 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.ECommerceAPII.SignalR FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.ECommerceAPII.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

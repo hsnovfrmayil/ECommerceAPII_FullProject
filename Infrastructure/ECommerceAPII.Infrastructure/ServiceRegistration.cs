@@ -1,4 +1,5 @@
 ﻿using System;
+using ECommerceAPII.Application.Abstractions.Services;
 using ECommerceAPII.Application.Abstractions.Storage;
 using ECommerceAPII.Application.Abstractions.Token;
 using ECommerceAPII.Infrastructure.Enums;
@@ -15,6 +16,7 @@ public static class ServiceRegistration
     {
         serviceCollection.AddScoped<IStorageService,StorageService>();
         serviceCollection.AddScoped<ITokenHandler, TokenHandler>();
+        serviceCollection.AddScoped<IMailService, MailService>();
     }
 
     public static void AddStorage<T>(this IServiceCollection serviceCollection) where T:class, IStorage

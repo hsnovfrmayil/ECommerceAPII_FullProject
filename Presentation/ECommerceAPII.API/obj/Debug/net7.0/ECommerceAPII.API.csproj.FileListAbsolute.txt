@@ -83,3 +83,5 @@
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Sinks.File.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Sinks.PeriodicBatching.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/Serilog.Sinks.PostgreSQL.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/ECommerceAPII.SignalR.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/bin/Debug/net7.0/ECommerceAPII.SignalR.pdb

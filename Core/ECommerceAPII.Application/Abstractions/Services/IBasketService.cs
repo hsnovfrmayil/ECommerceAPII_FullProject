@@ -10,8 +10,10 @@ public interface  IBasketService
 
     public Task AddItemToBasketAsync(VM_Create_BasketItem basketItem);
 
-    public Task UpdateQuantityAsync(VM_Create_BasketItem basketItem);
+    public Task UpdateQuantityAsync(VM_Update__BasketItem basketItem);
 
-    public Task RemoveBasketItemAsync(string basketItemId); 
+    public Task RemoveBasketItemAsync(string basketItemId);
+
+    public Basket? GetUserActiveBasket { get; }
 }
 

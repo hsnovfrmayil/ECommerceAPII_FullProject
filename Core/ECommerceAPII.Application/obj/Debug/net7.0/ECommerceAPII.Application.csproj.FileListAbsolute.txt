@@ -12,5 +12,4 @@
 /Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/obj/Debug/net7.0/refint/ECommerceAPII.Application.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/obj/Debug/net7.0/ECommerceAPII.Application.pdb
 /Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/obj/Debug/net7.0/ref/ECommerceAPII.Application.dll
-/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/obj/Debug/net7.0/ECommerceAPII.Application.sourcelink.json
-/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/obj/Debug/net7.0/ECommerc.EF33594C.Up2Date
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/obj/Debug/net7.0/ECommerceAPII.Application.csproj.CopyComplete

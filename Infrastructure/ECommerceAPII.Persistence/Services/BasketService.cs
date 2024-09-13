@@ -98,20 +98,37 @@ public class BasketService : IBasketService
             .ThenInclude(bi => bi.Product)
             .FirstOrDefaultAsync(bi => bi.Id == basket.Id);
 
-        return result.BasketItems.ToList()
+        return result.BasketItems.ToList();
     }
 
     public async Task RemoveBasketItemAsync(string basketItemId)
     {
         BasketItem? basketItem = await _basketItemReadRepository.GetByIdAsync(basketItemId);
         if (basketItem != null)
+        {
             _basketItemWriteRepository.Remove(basketItem);
-        await _basketItemWriteRepository.SaveAsync();
+            await _basketItemWriteRepository.SaveAsync(); 
+        }
     }
 
-    public Task UpdateQuantityAsync(VM_Create_BasketItem basketItem)
+    public async Task UpdateQuantityAsync(VM_Update__BasketItem basketItem)
     {
-        throw new NotImplementedException();
+        BasketItem? _basketItem = await _basketItemReadRepository.GetByIdAsync(basketItem.BasketItemId);
+
+        if (_basketItem != null)
+        {
+            _basketItem.Quantity = basketItem.Quantity;
+            await _basketItemWriteRepository.SaveAsync();
+        }
+    }
+
+    public Basket? GetUserActiveBasket
+    {
+        get
+        {
+            Basket? basket =  ContextUser().Result ;
+            return basket;
+        }
     }
 }
 

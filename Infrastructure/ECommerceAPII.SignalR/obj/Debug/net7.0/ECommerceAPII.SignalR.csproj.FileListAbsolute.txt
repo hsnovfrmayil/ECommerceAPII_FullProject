@@ -1,0 +1,17 @@
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/bin/Debug/net7.0/ECommerceAPII.SignalR.deps.json
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/bin/Debug/net7.0/ECommerceAPII.SignalR.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/bin/Debug/net7.0/ECommerceAPII.SignalR.pdb
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/bin/Debug/net7.0/ECommerceAPII.Application.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/bin/Debug/net7.0/ECommerceAPII.Domain.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/bin/Debug/net7.0/ECommerceAPII.Application.pdb
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/bin/Debug/net7.0/ECommerceAPII.Domain.pdb
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/ECommerceAPII.SignalR.csproj.AssemblyReference.cache
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/ECommerceAPII.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/ECommerceAPII.SignalR.AssemblyInfoInputs.cache
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/ECommerceAPII.SignalR.AssemblyInfo.cs
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/ECommerceAPII.SignalR.csproj.CoreCompileInputs.cache
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/ECommerceAPII.SignalR.csproj.CopyComplete
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/ECommerceAPII.SignalR.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/refint/ECommerceAPII.SignalR.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/ECommerceAPII.SignalR.pdb
+/Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.SignalR/obj/Debug/net7.0/ref/ECommerceAPII.SignalR.dll

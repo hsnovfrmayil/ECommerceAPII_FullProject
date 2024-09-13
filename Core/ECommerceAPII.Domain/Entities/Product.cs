@@ -12,7 +12,7 @@ public class Product :BaseEntity
 
     public long Price { get; set; }
 
-    public ICollection<Order> Orders { get; set; }
+    //public ICollection<Order> Orders { get; set; }
 
     public ICollection<BasketItem> BasketItems { get; set; }
 }

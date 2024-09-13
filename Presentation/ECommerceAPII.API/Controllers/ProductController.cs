@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using ECommerceAPII.Application.Abstractions.Services;
 using ECommerceAPII.Application.Features.Commands.Product.CreateProduct;
 using ECommerceAPII.Application.Features.Commands.Product.RemoveProduct;
 using ECommerceAPII.Application.Features.Commands.Product.UpdateProduct;
@@ -17,10 +18,12 @@ namespace ECommerceAPII.API.Controllers;
 public class ProductController:ControllerBase
 {
     readonly IMediator _mediator;
+    readonly IMailService _mailService;
 
-    public ProductController(IMediator mediator)
+    public ProductController(IMediator mediator, IMailService mailService)
     {
-        _mediator = mediator; 
+        _mediator = mediator;
+        _mailService = mailService;
     }
 
     [HttpGet("GetAll")]
@@ -66,6 +69,13 @@ public class ProductController:ControllerBase
     public async Task<IActionResult> Upload([FromQuery,FromForm] UploadProductImageCommandRequest uploadProductImageCommandRequest)
     {
         UploadProductImageCommandResponse response = await _mediator.Send(uploadProductImageCommandRequest);
+        return Ok();
+    }
+
+    [HttpGet("[action]")]
+    public async Task<IActionResult> ExampleMailTest()
+    {
+        await _mailService.SendMessageAsync("hesenovfermayil765@gmail.com", "Example Mail", "<h1>Example Test Mail</h1>");
         return Ok();
     }
 }

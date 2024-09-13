@@ -56,6 +56,18 @@
     <None Remove="Repositories\Basket\" />
     <None Remove="Repositories\BasketItem\" />
     <None Remove="ViewModels\Baskets\" />
+    <None Remove="Features\Commands\Basket\" />
+    <None Remove="Features\Commands\Basket\AddItemToBasket\" />
+    <None Remove="Features\Queries\Basket\" />
+    <None Remove="Features\Queries\Basket\GetBasketItems\" />
+    <None Remove="Features\Commands\Basket\RemoveBasketItem\" />
+    <None Remove="Features\Commands\Basket\UpdateQuantity\" />
+    <None Remove="Features\Commands\Order\" />
+    <None Remove="Features\Commands\Order\CreateOrder\" />
+    <None Remove="DTOs\Order\" />
+    <None Remove="Features\Queries\Order\" />
+    <None Remove="Features\Queries\Order\GetAllOrders\" />
+    <None Remove="Features\Queries\Order\GetOrderById\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -104,6 +116,18 @@
     <Folder Include="Repositories\Basket\" />
     <Folder Include="Repositories\BasketItem\" />
     <Folder Include="ViewModels\Baskets\" />
+    <Folder Include="Features\Commands\Basket\" />
+    <Folder Include="Features\Commands\Basket\AddItemToBasket\" />
+    <Folder Include="Features\Queries\Basket\" />
+    <Folder Include="Features\Queries\Basket\GetBasketItems\" />
+    <Folder Include="Features\Commands\Basket\RemoveBasketItem\" />
+    <Folder Include="Features\Commands\Basket\UpdateQuantity\" />
+    <Folder Include="Features\Commands\Order\" />
+    <Folder Include="Features\Commands\Order\CreateOrder\" />
+    <Folder Include="DTOs\Order\" />
+    <Folder Include="Features\Queries\Order\" />
+    <Folder Include="Features\Queries\Order\GetAllOrders\" />
+    <Folder Include="Features\Queries\Order\GetOrderById\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="7.0.0" />

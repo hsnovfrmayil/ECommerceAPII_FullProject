@@ -256,3 +256,1733 @@ System.Exception: hata alindi yaxsi oglan
    at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
 2024-09-05 22:06:06.477 +04:00 [ERR] hata alindi yaxsi oglan
 2024-09-05 22:06:06.480 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7091/Product/GetAll - 500 null application/json 223.9145ms
+2024-09-10 21:59:39.759 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-10 21:59:40.020 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-10 21:59:40.020 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-10 21:59:40.048 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-10 21:59:40.049 +04:00 [INF] Hosting environment: Development
+2024-09-10 21:59:40.049 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-10 21:59:43.189 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-10 21:59:43.235 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 46.8515ms
+2024-09-10 21:59:43.243 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.css - null null
+2024-09-10 21:59:43.243 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-10 21:59:43.243 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/swagger-ui.css - null null
+2024-09-10 21:59:43.243 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/swagger-ui-bundle.js - null null
+2024-09-10 21:59:43.298 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-10 21:59:43.321 +04:00 [INF] The file /swagger-ui.css was not modified
+2024-09-10 21:59:43.321 +04:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-09-10 21:59:43.321 +04:00 [INF] The file /index.css was not modified
+2024-09-10 21:59:43.322 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 23.781ms
+2024-09-10 21:59:43.321 +04:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-09-10 21:59:43.322 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 79.25ms
+2024-09-10 21:59:43.322 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.css - 304 null text/css 79.4864ms
+2024-09-10 21:59:43.322 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/swagger-ui-bundle.js - 304 null text/javascript 79.4372ms
+2024-09-10 21:59:43.322 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/swagger-ui.css - 304 null text/css 79.7145ms
+2024-09-10 21:59:43.498 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-10 21:59:43.580 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/favicon-32x32.png - null null
+2024-09-10 21:59:43.606 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/favicon-16x16.png - null null
+2024-09-10 21:59:43.606 +04:00 [INF] The file /favicon-32x32.png was not modified
+2024-09-10 21:59:43.606 +04:00 [INF] The file /favicon-16x16.png was not modified
+2024-09-10 21:59:43.606 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/favicon-16x16.png - 304 null image/png 26.5829ms
+2024-09-10 21:59:43.606 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/favicon-32x32.png - 304 null image/png 26.2884ms
+2024-09-10 21:59:43.688 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/apple-touch-icon-precomposed.png - null null
+2024-09-10 21:59:43.706 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon-precomposed.png
+Accept: */*
+Host: localhost:7091
+User-Agent: Safari/19618.3.11.11.5 CFNetwork/1498.700.2 Darwin/23.6.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+2024-09-10 21:59:43.719 +04:00 [INF] Response:
+StatusCode: 404
+2024-09-10 21:59:43.721 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/apple-touch-icon-precomposed.png - 404 0 null 32.7421ms
+2024-09-10 21:59:43.722 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/apple-touch-icon-precomposed.png, Response status code: 404
+2024-09-10 21:59:43.748 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/apple-touch-icon.png - null null
+2024-09-10 21:59:43.749 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /apple-touch-icon.png
+Accept: */*
+Host: localhost:7091
+User-Agent: Safari/19618.3.11.11.5 CFNetwork/1498.700.2 Darwin/23.6.0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+2024-09-10 21:59:43.750 +04:00 [INF] Response:
+StatusCode: 404
+2024-09-10 21:59:43.751 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/apple-touch-icon.png - 404 0 null 2.9437ms
+2024-09-10 21:59:43.751 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7091/apple-touch-icon.png, Response status code: 404
+2024-09-10 21:59:43.793 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 295.0498ms
+2024-09-10 22:00:09.430 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Orders - application/json 70
+2024-09-10 22:00:09.438 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Orders
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 70
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-10 22:00:09.446 +04:00 [INF] CORS policy execution failed.
+2024-09-10 22:00:09.446 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-10 22:00:09.452 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:00:09.481 +04:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(ECommerceAPII.Application.Features.Commands.Order.CreateOrder.CreateOrderCommandRequest) on controller ECommerceAPII.API.Controllers.OrdersController (ECommerceAPII.API).
+2024-09-10 22:00:09.503 +04:00 [INF] RequestBody: {
+  "description": "Order yaxsi oglan doul",
+  "address": "Baku Bus"
+}
+2024-09-10 22:00:09.695 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API) in 211.7994ms
+2024-09-10 22:00:09.695 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:00:09.704 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-10 22:00:09.705 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (gozlenilmeyen bir xeta ile qarsilasildi...)
+ ---> System.Exception: gozlenilmeyen bir xeta ile qarsilasildi...
+   at ECommerceAPII.Persistence.Services.BasketService.ContextUser() in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/Services/BasketService.cs:line 69
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at ECommerceAPII.Persistence.Services.BasketService.get_GetUserActiveBasket() in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/Services/BasketService.cs:line 129
+   at ECommerceAPII.Application.Features.Commands.Order.CreateOrder.CreateOrderCommandHandler.Handle(CreateOrderCommandRequest request, CancellationToken cancellationToken) in /Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/Features/Commands/Order/CreateOrder/CreateOrderCommandHandler.cs:line 23
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ECommerceAPII.API.Controllers.OrdersController.CreateOrder(CreateOrderCommandRequest createOrderCommandRequest) in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/OrdersController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-10 22:00:09.723 +04:00 [ERR] One or more errors occurred. (gozlenilmeyen bir xeta ile qarsilasildi...)
+2024-09-10 22:00:09.726 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Orders - 500 null application/json 321.8494ms
+2024-09-10 22:01:37.558 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Product/GetAll - null null
+2024-09-10 22:01:37.564 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Product/GetAll
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-10 22:01:37.566 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.ProductController.Get (ECommerceAPII.API)'
+2024-09-10 22:01:37.588 +04:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPII.Application.Features.Queries.Product.GetAllProducts.GetAllProductQueryRequest) on controller ECommerceAPII.API.Controllers.ProductController (ECommerceAPII.API).
+2024-09-10 22:01:37.606 +04:00 [INF] get all products
+2024-09-10 22:01:38.082 +04:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-09-10 22:01:38.093 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-09-10 22:01:38.093 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-09-10 22:01:38.102 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedTime"
+FROM "Products" AS p
+LIMIT @__p_0 OFFSET @__p_0
+2024-09-10 22:01:38.104 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Queries.Product.GetAllProducts.GetAllProductQueryResponse'.
+2024-09-10 22:01:38.112 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-10 22:01:38.112 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.ProductController.Get (ECommerceAPII.API) in 524.5615ms
+2024-09-10 22:01:38.112 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.ProductController.Get (ECommerceAPII.API)'
+2024-09-10 22:01:38.113 +04:00 [INF] ResponseBody: {"totalCount":0,"products":[]}
+2024-09-10 22:01:38.114 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Product/GetAll - 200 null application/json; charset=utf-8 555.9134ms
+2024-09-10 22:02:01.860 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Product/AddProduct - application/json 55
+2024-09-10 22:02:01.865 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Product/AddProduct
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 55
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-10 22:02:01.866 +04:00 [INF] CORS policy execution failed.
+2024-09-10 22:02:01.866 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-10 22:02:01.923 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-10 22:02:01.925 +04:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-09-10 22:02:01.925 +04:00 [INF] RequestBody: [Not consumed by app]
+2024-09-10 22:02:01.925 +04:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-09-10 22:02:01.926 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Product/AddProduct - 401 0 null 65.7203ms
+2024-09-10 22:03:43.957 +04:00 [ERR] Unexpected exception in TimingPipeFlusher.FlushAsync.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.FlushAsync(MinDataRate minRate, Int64 count, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteGoAwayAsync(Int32 lastStreamId, Http2ErrorCode errorCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.UpdateConnectionState()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.ConcurrentPipeWriter.FlushAsyncAwaited(ValueTask`1 flushTask, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.PipeWriterHelpers.TimingPipeFlusher.TimeFlushAsyncAwaited(ValueTask`1 pipeFlushTask, MinDataRate minRate, IHttpOutputAborter outputAborter, CancellationToken cancellationToken)
+2024-09-10 22:03:43.966 +04:00 [ERR] Unhandled exception while processing 0HN6HO9BMU1UF.
+System.IO.IOException: The encryption operation failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (14): Bad address
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.HttpConnection.ProcessRequestsAsync[TContext](IHttpApplication`1 httpApplication)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2Connection.ProcessRequestsAsync[TContext](IHttpApplication`1 application)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Threading.Tasks.UnwrapPromise`1.TrySetFromTask(Task task, Boolean lookForOce)
+   at System.Threading.Tasks.UnwrapPromise`1.Invoke(Task completingTask)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http2.Http2FrameWriter.WriteToOutputPipe()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.IO.Pipelines.StreamPipeWriter.FlushAsyncInternal(Boolean writeToStream, ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at System.IO.Pipelines.StreamPipeWriter.CompleteAsync(Exception exception)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStreamAdapter`1.DisposeAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.KestrelConnection`1.ExecuteAsync()
+2024-09-10 22:13:41.847 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-10 22:13:42.200 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-10 22:13:42.201 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-10 22:13:42.203 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-10 22:13:42.204 +04:00 [INF] Hosting environment: Development
+2024-09-10 22:13:42.204 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-10 22:13:43.613 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-10 22:13:43.772 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 158.9051ms
+2024-09-10 22:13:43.777 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-10 22:13:43.781 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 3.82ms
+2024-09-10 22:13:44.012 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-10 22:13:44.120 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 108.3479ms
+2024-09-10 22:13:59.315 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Login - application/json 57
+2024-09-10 22:13:59.354 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Login
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 57
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-10 22:13:59.360 +04:00 [INF] CORS policy execution failed.
+2024-09-10 22:13:59.361 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-10 22:13:59.382 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-10 22:13:59.409 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller ECommerceAPII.API.Controllers.AuthController (ECommerceAPII.API).
+2024-09-10 22:13:59.439 +04:00 [INF] RequestBody: {
+  "usernameOrEmail": "string",
+  "password": "string"
+}
+2024-09-10 22:14:00.119 +04:00 [INF] Executed DbCommand (90ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-10 22:14:00.131 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2024-09-10 22:14:00.198 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API) in 787.5443ms
+2024-09-10 22:14:00.198 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-10 22:14:00.227 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-10 22:14:00.229 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+ECommerceAPII.Application.Exceptions.NotFoundUserException: istifadeci adi ve ya sifresi yanlisdir...
+   at ECommerceAPII.Persistence.Services.AuthService.LoginAsync(String usernameOrEmail, String password, Int32 accessTokenLifeTime) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/Services/AuthService.cs:line 92
+   at ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandHandler.Handle(LoginUserCommandRequest request, CancellationToken cancellationToken) in /Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/Features/Commands/AppUser/LoginUser/LoginUserCommandHandler.cs:line 22
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ECommerceAPII.API.Controllers.AuthController.Login(LoginUserCommandRequest loginUserCommandRequest) in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/AuthController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-10 22:14:00.254 +04:00 [ERR] istifadeci adi ve ya sifresi yanlisdir...
+2024-09-10 22:14:00.259 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Login - 500 null application/json 944.0582ms
+2024-09-10 22:14:18.241 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/api/Users - application/json 129
+2024-09-10 22:14:18.279 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Users
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 129
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-10 22:14:18.286 +04:00 [INF] CORS policy execution failed.
+2024-09-10 22:14:18.286 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-10 22:14:18.289 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.CreateUser (ECommerceAPII.API)'
+2024-09-10 22:14:18.298 +04:00 [INF] Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(ECommerceAPII.Application.Features.Commands.AppUser.CreateUser.CreateUserCommandRequest) on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-10 22:14:18.302 +04:00 [INF] RequestBody: {
+  "nameSurname": "string",
+  "username": "string",
+  "email": "string",
+  "password": "string",
+  "passwordConfirm": "string"
+}
+2024-09-10 22:14:18.408 +04:00 [INF] Executed DbCommand (24ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-10 22:14:18.485 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime), @p7='?', @p8='?', @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Boolean), @p13='?', @p14='?' (DbType = DateTime), @p15='?', @p16='?' (DbType = Boolean), @p17='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NameSurname", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenEndTime", "SecurityStamp", "TwoFactorEnabled", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17);
+2024-09-10 22:14:18.491 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Commands.AppUser.CreateUser.CreateUserCommandResponse'.
+2024-09-10 22:14:18.493 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-10 22:14:18.493 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.UsersController.CreateUser (ECommerceAPII.API) in 195.4355ms
+2024-09-10 22:14:18.493 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.UsersController.CreateUser (ECommerceAPII.API)'
+2024-09-10 22:14:18.494 +04:00 [INF] ResponseBody: {"succeeded":true,"message":"Istifadeci ugurla yaradildi!"}
+2024-09-10 22:14:18.494 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/api/Users - 200 null application/json; charset=utf-8 253.7316ms
+2024-09-10 22:14:56.500 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Orders - application/json 52
+2024-09-10 22:14:56.503 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Orders
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 52
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-10 22:14:56.504 +04:00 [INF] CORS policy execution failed.
+2024-09-10 22:14:56.505 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-10 22:14:56.556 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-10 22:14:56.559 +04:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-09-10 22:14:56.559 +04:00 [INF] RequestBody: [Not consumed by app]
+2024-09-10 22:14:56.559 +04:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-09-10 22:14:56.559 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Orders - 401 0 null 81.1808ms
+2024-09-10 22:15:18.266 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:7091/Login - application/json 52
+2024-09-10 22:15:18.268 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Login
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 52
+Postman-Token: [Redacted]
+2024-09-10 22:15:18.270 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-10 22:15:18.271 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller ECommerceAPII.API.Controllers.AuthController (ECommerceAPII.API).
+2024-09-10 22:15:18.275 +04:00 [INF] RequestBody: {
+  "description": "string",
+  "address": "string"
+}
+2024-09-10 22:15:18.433 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API) in 161.4072ms
+2024-09-10 22:15:18.433 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-10 22:15:18.445 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-10 22:15:18.445 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'userName')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at ECommerceAPII.Persistence.Services.AuthService.LoginAsync(String usernameOrEmail, String password, Int32 accessTokenLifeTime) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Persistence/Services/AuthService.cs:line 86
+   at ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandHandler.Handle(LoginUserCommandRequest request, CancellationToken cancellationToken) in /Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Application/Features/Commands/AppUser/LoginUser/LoginUserCommandHandler.cs:line 22
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ECommerceAPII.API.Controllers.AuthController.Login(LoginUserCommandRequest loginUserCommandRequest) in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/AuthController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-10 22:15:18.448 +04:00 [ERR] Value cannot be null. (Parameter 'userName')
+2024-09-10 22:15:18.449 +04:00 [INF] Request finished HTTP/1.1 POST https://localhost:7091/Login - 500 null application/json 184.0702ms
+2024-09-10 22:15:30.513 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Orders - application/json 52
+2024-09-10 22:15:30.514 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Orders
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 52
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-10 22:15:30.514 +04:00 [INF] CORS policy execution failed.
+2024-09-10 22:15:30.514 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-10 22:15:30.516 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-10 22:15:30.517 +04:00 [INF] AuthenticationScheme: Admin was challenged.
+2024-09-10 22:15:30.517 +04:00 [INF] RequestBody: [Not consumed by app]
+2024-09-10 22:15:30.517 +04:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2024-09-10 22:15:30.517 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Orders - 401 0 null 4.7627ms
+2024-09-10 22:15:39.643 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Login - application/json 57
+2024-09-10 22:15:39.648 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Login
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 57
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-10 22:15:39.650 +04:00 [INF] CORS policy execution failed.
+2024-09-10 22:15:39.651 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-10 22:15:39.654 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-10 22:15:39.655 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller ECommerceAPII.API.Controllers.AuthController (ECommerceAPII.API).
+2024-09-10 22:15:39.656 +04:00 [INF] RequestBody: {
+  "usernameOrEmail": "string",
+  "password": "string"
+}
+2024-09-10 22:15:39.785 +04:00 [INF] Executed DbCommand (81ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-10 22:15:40.039 +04:00 [INF] Executed DbCommand (26ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-10 22:15:40.052 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndTime" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-09-10 22:15:40.053 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandSuccessResponse'.
+2024-09-10 22:15:40.056 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-10 22:15:40.056 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API) in 401.3897ms
+2024-09-10 22:15:40.057 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-10 22:15:40.057 +04:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwibmJmIjoxNzI1OTkyMTM5LCJleHAiOjE3MjU5OTMwMzksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzEvIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzAzMS8ifQ.UkNWyqGLxwvmkkXNtBuzCeIvCMQ9xrtkYfN_XUrCiN4","expiration":"2024-09-10T18:30:39.942289Z","refreshToken":"XfMgzZZ53gNbnuajp9J7A9/lBCrFgFEyDR7R/R4lus4="}}
+2024-09-10 22:15:40.057 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Login - 200 null application/json; charset=utf-8 414.0743ms
+2024-09-10 22:15:58.341 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:7091/Orders - null 0
+2024-09-10 22:15:58.343 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Orders
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Length: 0
+Postman-Token: [Redacted]
+2024-09-10 22:15:58.390 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:15:58.393 +04:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(ECommerceAPII.Application.Features.Commands.Order.CreateOrder.CreateOrderCommandRequest) on controller ECommerceAPII.API.Controllers.OrdersController (ECommerceAPII.API).
+2024-09-10 22:15:58.395 +04:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-09-10 22:15:58.407 +04:00 [INF] Response:
+StatusCode: 415
+Content-Type: application/problem+json; charset=utf-8
+2024-09-10 22:15:58.408 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API) in 14.8749ms
+2024-09-10 22:15:58.408 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:15:58.408 +04:00 [INF] ResponseBody: {"type":"https://tools.ietf.org/html/rfc9110#section-15.5.16","title":"Unsupported Media Type","status":415,"traceId":"00-63dbd584b8cad91a09083faa5bde2e0f-d4ed39c99991ca1c-00"}
+2024-09-10 22:15:58.408 +04:00 [INF] Request finished HTTP/1.1 POST https://localhost:7091/Orders - 415 null application/problem+json; charset=utf-8 66.4531ms
+2024-09-10 22:16:19.344 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:7091/Orders - application/json 52
+2024-09-10 22:16:19.346 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Orders
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Type: application/json
+Content-Length: 52
+Postman-Token: [Redacted]
+2024-09-10 22:16:19.348 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:16:19.349 +04:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(ECommerceAPII.Application.Features.Commands.Order.CreateOrder.CreateOrderCommandRequest) on controller ECommerceAPII.API.Controllers.OrdersController (ECommerceAPII.API).
+2024-09-10 22:16:19.351 +04:00 [INF] RequestBody: {
+  "description": "string",
+  "address": "string"
+}
+2024-09-10 22:16:19.533 +04:00 [INF] Executed DbCommand (100ms) [Parameters=[@__username_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."ConcurrencyStamp", t."Email", t."EmailConfirmed", t."LockoutEnabled", t."LockoutEnd", t."NameSurname", t."NormalizedEmail", t."NormalizedUserName", t."PasswordHash", t."PhoneNumber", t."PhoneNumberConfirmed", t."RefreshToken", t."RefreshTokenEndTime", t."SecurityStamp", t."TwoFactorEnabled", t."UserName", b."Id", b."AppUserId", b."CreatedTime", b."UpdatedDate"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__username_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Baskets" AS b ON t."Id" = b."AppUserId"
+ORDER BY t."Id"
+2024-09-10 22:16:19.731 +04:00 [INF] Executed DbCommand (131ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Baskets" ("Id", "AppUserId", "CreatedTime", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3);
+2024-09-10 22:16:19.799 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Orders" ("Id", "Address", "CreatedTime", "Description", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-10 22:16:19.959 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Commands.Order.CreateOrder.CreateOrderCommandResponse'.
+2024-09-10 22:16:19.960 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-10 22:16:19.961 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API) in 612.379ms
+2024-09-10 22:16:19.961 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:16:19.962 +04:00 [INF] ResponseBody: {}
+2024-09-10 22:16:19.962 +04:00 [INF] Request finished HTTP/1.1 POST https://localhost:7091/Orders - 200 null application/json; charset=utf-8 617.7005ms
+2024-09-10 22:16:23.477 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:7091/Orders - application/json 52
+2024-09-10 22:16:23.477 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Orders
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Type: application/json
+Content-Length: 52
+Postman-Token: [Redacted]
+2024-09-10 22:16:23.478 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:16:23.478 +04:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(ECommerceAPII.Application.Features.Commands.Order.CreateOrder.CreateOrderCommandRequest) on controller ECommerceAPII.API.Controllers.OrdersController (ECommerceAPII.API).
+2024-09-10 22:16:23.478 +04:00 [INF] RequestBody: {
+  "description": "string",
+  "address": "string"
+}
+2024-09-10 22:16:23.483 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."ConcurrencyStamp", t."Email", t."EmailConfirmed", t."LockoutEnabled", t."LockoutEnd", t."NameSurname", t."NormalizedEmail", t."NormalizedUserName", t."PasswordHash", t."PhoneNumber", t."PhoneNumberConfirmed", t."RefreshToken", t."RefreshTokenEndTime", t."SecurityStamp", t."TwoFactorEnabled", t."UserName", b."Id", b."AppUserId", b."CreatedTime", b."UpdatedDate"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__username_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Baskets" AS b ON t."Id" = b."AppUserId"
+ORDER BY t."Id"
+2024-09-10 22:16:23.499 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT o."Id", o."Address", o."CreatedTime", o."Description", o."UpdatedDate"
+FROM "Orders" AS o
+2024-09-10 22:16:23.554 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Baskets" ("Id", "AppUserId", "CreatedTime", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3);
+2024-09-10 22:16:23.630 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Orders" ("Id", "Address", "CreatedTime", "Description", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-10 22:16:23.795 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Commands.Order.CreateOrder.CreateOrderCommandResponse'.
+2024-09-10 22:16:23.819 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-10 22:16:23.819 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API) in 341.3767ms
+2024-09-10 22:16:23.820 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:16:23.820 +04:00 [INF] ResponseBody: {}
+2024-09-10 22:16:23.822 +04:00 [INF] Request finished HTTP/1.1 POST https://localhost:7091/Orders - 200 null application/json; charset=utf-8 344.9322ms
+2024-09-10 22:19:42.515 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-10 22:19:42.834 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-10 22:19:42.860 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-10 22:19:42.888 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-10 22:19:42.888 +04:00 [INF] Hosting environment: Development
+2024-09-10 22:19:42.888 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-10 22:19:44.710 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-10 22:19:44.765 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 55.8332ms
+2024-09-10 22:19:44.770 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-10 22:19:44.772 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 2.8066ms
+2024-09-10 22:19:44.967 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-10 22:19:45.049 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 81.5112ms
+2024-09-10 22:19:48.885 +04:00 [INF] Request starting HTTP/1.1 POST https://localhost:7091/Orders - application/json 53
+2024-09-10 22:19:48.898 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Orders
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Content-Type: application/json
+Content-Length: 53
+Postman-Token: [Redacted]
+2024-09-10 22:19:49.011 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:19:49.020 +04:00 [INF] Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(ECommerceAPII.Application.Features.Commands.Order.CreateOrder.CreateOrderCommandRequest) on controller ECommerceAPII.API.Controllers.OrdersController (ECommerceAPII.API).
+2024-09-10 22:19:49.033 +04:00 [INF] RequestBody: {
+  "description": "string",
+  "address": "string"
+}
+
+2024-09-10 22:19:49.598 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[@__username_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."ConcurrencyStamp", t."Email", t."EmailConfirmed", t."LockoutEnabled", t."LockoutEnd", t."NameSurname", t."NormalizedEmail", t."NormalizedUserName", t."PasswordHash", t."PhoneNumber", t."PhoneNumberConfirmed", t."RefreshToken", t."RefreshTokenEndTime", t."SecurityStamp", t."TwoFactorEnabled", t."UserName", b."Id", b."AppUserId", b."CreatedTime", b."UpdatedDate"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__username_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Baskets" AS b ON t."Id" = b."AppUserId"
+ORDER BY t."Id"
+2024-09-10 22:19:49.655 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT o."Id", o."Address", o."CreatedTime", o."Description", o."UpdatedDate"
+FROM "Orders" AS o
+2024-09-10 22:19:49.717 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Baskets" ("Id", "AppUserId", "CreatedTime", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3);
+2024-09-10 22:19:49.829 +04:00 [INF] Executed DbCommand (76ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Orders" ("Id", "Address", "CreatedTime", "Description", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-10 22:19:49.861 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Commands.Order.CreateOrder.CreateOrderCommandResponse'.
+2024-09-10 22:19:49.865 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-10 22:19:49.869 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API) in 846.709ms
+2024-09-10 22:19:49.869 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.OrdersController.CreateOrder (ECommerceAPII.API)'
+2024-09-10 22:19:49.870 +04:00 [INF] ResponseBody: {}
+2024-09-10 22:19:49.872 +04:00 [INF] Request finished HTTP/1.1 POST https://localhost:7091/Orders - 200 null application/json; charset=utf-8 987.3075ms
+2024-09-13 12:08:47.133 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 12:08:47.390 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 12:08:47.391 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 12:08:47.393 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 12:08:47.393 +04:00 [INF] Hosting environment: Development
+2024-09-13 12:08:47.393 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 12:08:50.299 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 12:08:50.375 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 77.7077ms
+2024-09-13 12:08:50.383 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-13 12:08:50.383 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 12:08:50.383 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/swagger-ui-bundle.js - null null
+2024-09-13 12:08:50.383 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.css - null null
+2024-09-13 12:08:50.383 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/swagger-ui.css - null null
+2024-09-13 12:08:50.387 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 4.1535ms
+2024-09-13 12:08:50.392 +04:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-09-13 12:08:50.392 +04:00 [INF] The file /swagger-ui.css was not modified
+2024-09-13 12:08:50.392 +04:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-09-13 12:08:50.392 +04:00 [INF] The file /index.css was not modified
+2024-09-13 12:08:50.392 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.css - 304 null text/css 9.5322ms
+2024-09-13 12:08:50.392 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/swagger-ui-bundle.js - 304 null text/javascript 9.4013ms
+2024-09-13 12:08:50.392 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 9.559ms
+2024-09-13 12:08:50.392 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/swagger-ui.css - 304 null text/css 9.5656ms
+2024-09-13 12:08:50.593 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 12:08:50.656 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.9669ms
+2024-09-13 12:09:43.378 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 12:09:43.762 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 12:09:43.788 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 12:09:43.793 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 12:09:43.793 +04:00 [INF] Hosting environment: Development
+2024-09-13 12:09:43.794 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 12:09:45.077 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 12:09:45.133 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 57.6132ms
+2024-09-13 12:09:45.138 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 12:09:45.142 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 4.3057ms
+2024-09-13 12:09:45.364 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 12:09:45.444 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.2137ms
+2024-09-13 12:10:03.300 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 12:10:03.547 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 12:10:03.547 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 12:10:03.548 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 12:10:03.548 +04:00 [INF] Hosting environment: Development
+2024-09-13 12:10:03.548 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 12:10:04.811 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 12:10:04.867 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 57.0064ms
+2024-09-13 12:10:04.872 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 12:10:04.878 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 5.1867ms
+2024-09-13 12:10:04.988 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 12:10:05.079 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.9751ms
+2024-09-13 12:10:09.835 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:10:09.852 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 12:10:09.866 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:10:09.881 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:10:17.408 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API) in 7525.32ms
+2024-09-13 12:10:17.409 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:10:17.459 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 12:10:17.461 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 39
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 21
+   at ECommerceAPII.API.Controllers.UsersController.ExampleMailTest() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/UsersController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-13 12:10:17.478 +04:00 [ERR] Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+2024-09-13 12:10:17.484 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/api/Users/ExampleMailTest - 500 null application/json 7649.3671ms
+2024-09-13 12:11:11.498 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:11:11.502 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 12:11:11.512 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:11:11.515 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:11:20.329 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API) in 8813.7256ms
+2024-09-13 12:11:20.330 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:11:20.353 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 12:11:20.353 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 39
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 21
+   at ECommerceAPII.API.Controllers.UsersController.ExampleMailTest() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/UsersController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-13 12:11:20.355 +04:00 [ERR] Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+2024-09-13 12:11:20.356 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/api/Users/ExampleMailTest - 500 null application/json 8858.7522ms
+2024-09-13 12:12:13.537 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 12:12:13.827 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 12:12:13.852 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 12:12:13.881 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 12:12:13.881 +04:00 [INF] Hosting environment: Development
+2024-09-13 12:12:13.881 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 12:12:15.063 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 12:12:15.124 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 62.9342ms
+2024-09-13 12:12:15.136 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 12:12:15.145 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 8.8975ms
+2024-09-13 12:12:15.306 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 12:12:15.421 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.7146ms
+2024-09-13 12:12:19.371 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:12:19.387 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 12:12:19.405 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:12:19.421 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:12:23.367 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API) in 3943.5255ms
+2024-09-13 12:12:23.367 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:12:23.393 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 12:12:23.395 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 39
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 21
+   at ECommerceAPII.API.Controllers.UsersController.ExampleMailTest() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-13 12:12:23.412 +04:00 [ERR] Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+2024-09-13 12:12:23.419 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/api/Users/ExampleMailTest - 500 null application/json 4048.1716ms
+2024-09-13 12:13:57.186 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 12:13:57.502 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 12:13:57.503 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 12:13:57.506 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 12:13:57.507 +04:00 [INF] Hosting environment: Development
+2024-09-13 12:13:57.507 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 12:13:58.941 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 12:13:59.003 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 63.4925ms
+2024-09-13 12:13:59.033 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 12:13:59.035 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 2.2675ms
+2024-09-13 12:13:59.276 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 12:13:59.339 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.7753ms
+2024-09-13 12:14:09.008 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Login - application/json 57
+2024-09-13 12:14:09.026 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Login
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 57
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-13 12:14:09.032 +04:00 [INF] CORS policy execution failed.
+2024-09-13 12:14:09.032 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-13 12:14:09.048 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-13 12:14:09.066 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller ECommerceAPII.API.Controllers.AuthController (ECommerceAPII.API).
+2024-09-13 12:14:09.084 +04:00 [INF] RequestBody: {
+  "usernameOrEmail": "string",
+  "password": "string"
+}
+2024-09-13 12:14:09.622 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-13 12:14:09.767 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-13 12:14:09.833 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndTime" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-09-13 12:14:09.840 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandSuccessResponse'.
+2024-09-13 12:14:09.844 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-13 12:14:09.846 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API) in 778.4989ms
+2024-09-13 12:14:09.846 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-13 12:14:09.847 +04:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwibmJmIjoxNzI2MjE1MjQ5LCJleHAiOjE3MjYyMTYxNDksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzEvIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzAzMS8ifQ.5RMr_VrLuKP_W4E6rN4vgpCmp5vEA_bkMA-8fAgWBNI","expiration":"2024-09-13T08:29:09.71829Z","refreshToken":"pkIs3APHx9Kld5XBSBdjw7LhQEZA2v+17KiKamf1QTY="}}
+2024-09-13 12:14:09.848 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Login - 200 null application/json; charset=utf-8 866.3582ms
+2024-09-13 12:14:20.678 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:14:20.688 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 12:14:20.692 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:14:20.700 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:14:24.587 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API) in 3887.5561ms
+2024-09-13 12:14:24.588 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:14:24.617 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 12:14:24.618 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 39
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 21
+   at ECommerceAPII.API.Controllers.UsersController.ExampleMailTest() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/UsersController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-13 12:14:24.636 +04:00 [ERR] Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+2024-09-13 12:14:24.639 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/api/Users/ExampleMailTest - 500 null application/json 3961.9544ms
+2024-09-13 12:15:01.344 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:15:01.347 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Postman-Token: [Redacted]
+2024-09-13 12:15:01.352 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:15:01.353 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:15:09.516 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API) in 8163.4863ms
+2024-09-13 12:15:09.517 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:15:09.539 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 12:15:09.540 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 39
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 21
+   at ECommerceAPII.API.Controllers.UsersController.ExampleMailTest() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/UsersController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-13 12:15:09.541 +04:00 [ERR] Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+2024-09-13 12:15:09.542 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - 500 null application/json 8199.4767ms
+2024-09-13 12:15:17.966 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:15:17.966 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Postman-Token: [Redacted]
+2024-09-13 12:15:17.967 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:15:17.967 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:15:25.457 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API) in 7490.2955ms
+2024-09-13 12:15:25.458 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:15:25.480 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 12:15:25.480 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 39
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 21
+   at ECommerceAPII.API.Controllers.UsersController.ExampleMailTest() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/UsersController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-13 12:15:25.481 +04:00 [ERR] Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+2024-09-13 12:15:25.482 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - 500 null application/json 7516.2425ms
+2024-09-13 12:15:57.196 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:15:57.201 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Postman-Token: [Redacted]
+2024-09-13 12:15:57.202 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:15:57.203 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:16:00.594 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API) in 3391.3706ms
+2024-09-13 12:16:00.595 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:16:00.618 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 12:16:00.619 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 39
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 21
+   at ECommerceAPII.API.Controllers.UsersController.ExampleMailTest() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/UsersController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-13 12:16:00.620 +04:00 [ERR] Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+2024-09-13 12:16:00.620 +04:00 [INF] Request finished HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - 500 null application/json 3425.5679ms
+2024-09-13 12:16:46.135 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 12:16:46.504 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 12:16:46.529 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 12:16:46.555 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 12:16:46.555 +04:00 [INF] Hosting environment: Development
+2024-09-13 12:16:46.555 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 12:16:47.839 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 12:16:47.944 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 105.2226ms
+2024-09-13 12:16:47.948 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 12:16:47.952 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 3.6362ms
+2024-09-13 12:16:48.110 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 12:16:48.177 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.7777ms
+2024-09-13 12:17:01.658 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Login - application/json 57
+2024-09-13 12:17:01.675 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Login
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 57
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-13 12:17:01.687 +04:00 [INF] CORS policy execution failed.
+2024-09-13 12:17:01.687 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-13 12:17:01.700 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-13 12:17:01.719 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller ECommerceAPII.API.Controllers.AuthController (ECommerceAPII.API).
+2024-09-13 12:17:01.737 +04:00 [INF] RequestBody: {
+  "usernameOrEmail": "string",
+  "password": "string"
+}
+2024-09-13 12:17:02.283 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-13 12:17:02.454 +04:00 [INF] Executed DbCommand (26ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-13 12:17:02.520 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndTime" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-09-13 12:17:02.526 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandSuccessResponse'.
+2024-09-13 12:17:02.531 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-13 12:17:02.533 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API) in 812.1115ms
+2024-09-13 12:17:02.533 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-13 12:17:02.533 +04:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwibmJmIjoxNzI2MjE1NDIyLCJleHAiOjE3MjYyMTYzMjIsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzEvIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzAzMS8ifQ.MwzhWqggHjJa7yvg_qIP0MX9M4rXzVWORmtFBiBIkag","expiration":"2024-09-13T08:32:02.380629Z","refreshToken":"jjgOQYP/VCa/mki8O1u9rCY7B97vDeu7Ml+yTekrKFI="}}
+2024-09-13 12:17:02.535 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Login - 200 null application/json; charset=utf-8 902.7687ms
+2024-09-13 12:17:10.280 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:17:10.283 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Postman-Token: [Redacted]
+2024-09-13 12:17:10.287 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:17:10.295 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:18:12.246 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 12:18:12.542 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 12:18:12.542 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 12:18:12.543 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 12:18:12.543 +04:00 [INF] Hosting environment: Development
+2024-09-13 12:18:12.543 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 12:18:13.868 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 12:18:14.013 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 145.6353ms
+2024-09-13 12:18:14.016 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 12:18:14.022 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 5.8346ms
+2024-09-13 12:18:14.161 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 12:18:14.261 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.0764ms
+2024-09-13 12:18:18.318 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Login - application/json 57
+2024-09-13 12:18:18.330 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Login
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 57
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-13 12:18:18.334 +04:00 [INF] CORS policy execution failed.
+2024-09-13 12:18:18.334 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-13 12:18:18.346 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-13 12:18:18.366 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller ECommerceAPII.API.Controllers.AuthController (ECommerceAPII.API).
+2024-09-13 12:18:18.388 +04:00 [INF] RequestBody: {
+  "usernameOrEmail": "string",
+  "password": "string"
+}
+2024-09-13 12:18:18.947 +04:00 [INF] Executed DbCommand (31ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-13 12:18:19.093 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-13 12:18:19.210 +04:00 [INF] Executed DbCommand (77ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndTime" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-09-13 12:18:19.218 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandSuccessResponse'.
+2024-09-13 12:18:19.223 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-13 12:18:19.226 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API) in 857.8585ms
+2024-09-13 12:18:19.226 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-13 12:18:19.227 +04:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwibmJmIjoxNzI2MjE1NDk5LCJleHAiOjE3MjYyMTYzOTksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzEvIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzAzMS8ifQ.eMg_2LcI8sou18E5646IRCUEzVFT81dSRAgCxA4UxfI","expiration":"2024-09-13T08:33:19.044786Z","refreshToken":"TCCHsjpxJr9bbnw7Z1+OnCrTzcBZD3wYqxyalbKShnQ="}}
+2024-09-13 12:18:19.228 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Login - 200 null application/json; charset=utf-8 909.9944ms
+2024-09-13 12:18:27.192 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:18:27.195 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Postman-Token: [Redacted]
+2024-09-13 12:18:27.199 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:18:27.206 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:19:32.772 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 12:19:33.112 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 12:19:33.112 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 12:19:33.113 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 12:19:33.113 +04:00 [INF] Hosting environment: Development
+2024-09-13 12:19:33.113 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 12:19:34.463 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 12:19:34.515 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 56.2401ms
+2024-09-13 12:19:34.569 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 12:19:34.580 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 10.7322ms
+2024-09-13 12:19:34.683 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 12:19:34.765 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 107.7135ms
+2024-09-13 12:19:39.953 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:19:39.970 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Postman-Token: [Redacted]
+2024-09-13 12:19:39.983 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:19:40.001 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 12:19:45.026 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7091/Login - application/json 57
+2024-09-13 12:19:45.027 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /Login
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 57
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2024-09-13 12:19:45.038 +04:00 [INF] CORS policy execution failed.
+2024-09-13 12:19:45.039 +04:00 [INF] Request origin https://localhost:7091 does not have permission to access the resource.
+2024-09-13 12:19:45.049 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-13 12:19:45.059 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller ECommerceAPII.API.Controllers.AuthController (ECommerceAPII.API).
+2024-09-13 12:19:45.083 +04:00 [INF] RequestBody: {
+  "usernameOrEmail": "string",
+  "password": "string"
+}
+2024-09-13 12:19:45.648 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-13 12:19:45.868 +04:00 [INF] Executed DbCommand (76ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndTime", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2024-09-13 12:19:45.910 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndTime" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2024-09-13 12:19:45.915 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandSuccessResponse'.
+2024-09-13 12:19:45.920 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-13 12:19:45.922 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API) in 860.9836ms
+2024-09-13 12:19:45.922 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.AuthController.Login (ECommerceAPII.API)'
+2024-09-13 12:19:45.922 +04:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwibmJmIjoxNzI2MjE1NTg1LCJleHAiOjE3MjYyMTY0ODUsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwMzEvIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzAzMS8ifQ.kY_2dFmS7avWCWRGdpMhuWS81gV9KONx7v0vj3QdYX4","expiration":"2024-09-13T08:34:45.745271Z","refreshToken":"oE931wlrglgThV6QipYEsOV/NMBY0lfZ4H7eVTLpNHc="}}
+2024-09-13 12:19:45.924 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7091/Login - 200 null application/json; charset=utf-8 898.0558ms
+2024-09-13 12:19:55.740 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7091/api/Users/ExampleMailTest - null null
+2024-09-13 12:19:55.743 +04:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/Users/ExampleMailTest
+Accept: */*
+Connection: keep-alive
+Host: localhost:7091
+User-Agent: PostmanRuntime/7.41.2
+Accept-Encoding: gzip, deflate, br
+Authorization: [Redacted]
+Postman-Token: [Redacted]
+2024-09-13 12:19:55.748 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.UsersController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 12:19:55.749 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.UsersController (ECommerceAPII.API).
+2024-09-13 13:18:42.477 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Product/GetAll - null null
+2024-09-13 13:18:42.511 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Product/GetAll
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 13:18:42.513 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.ProductController.Get (ECommerceAPII.API)'
+2024-09-13 13:18:42.546 +04:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ECommerceAPII.Application.Features.Queries.Product.GetAllProducts.GetAllProductQueryRequest) on controller ECommerceAPII.API.Controllers.ProductController (ECommerceAPII.API).
+2024-09-13 13:18:42.564 +04:00 [INF] get all products
+2024-09-13 13:18:42.636 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Products" AS p
+2024-09-13 13:18:42.643 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-09-13 13:18:42.644 +04:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-09-13 13:18:42.650 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedTime"
+FROM "Products" AS p
+LIMIT @__p_0 OFFSET @__p_0
+2024-09-13 13:18:42.650 +04:00 [INF] Executing OkObjectResult, writing value of type 'ECommerceAPII.Application.Features.Queries.Product.GetAllProducts.GetAllProductQueryResponse'.
+2024-09-13 13:18:42.662 +04:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2024-09-13 13:18:42.662 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.ProductController.Get (ECommerceAPII.API) in 116.5272ms
+2024-09-13 13:18:42.663 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.ProductController.Get (ECommerceAPII.API)'
+2024-09-13 13:18:42.663 +04:00 [INF] ResponseBody: {"totalCount":0,"products":[]}
+2024-09-13 13:18:42.663 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Product/GetAll - 200 null application/json; charset=utf-8 186.5781ms
+2024-09-13 13:20:05.810 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 13:20:06.216 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 13:20:06.242 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 13:20:06.244 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 13:20:06.244 +04:00 [INF] Hosting environment: Development
+2024-09-13 13:20:06.244 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 13:20:07.753 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 13:20:07.809 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 56.816ms
+2024-09-13 13:20:07.814 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 13:20:07.816 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 2.4954ms
+2024-09-13 13:20:08.104 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 13:20:08.205 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.3518ms
+2024-09-13 13:20:14.783 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Product/ExampleMailTest - null null
+2024-09-13 13:20:14.802 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Product/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 13:20:14.816 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 13:20:14.834 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.ProductController (ECommerceAPII.API).
+2024-09-13 13:20:35.639 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 13:20:35.905 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 13:20:35.905 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 13:20:35.906 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 13:20:35.906 +04:00 [INF] Hosting environment: Development
+2024-09-13 13:20:35.906 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 13:20:37.246 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 13:20:37.325 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 80.8302ms
+2024-09-13 13:20:37.329 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 13:20:37.335 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 5.2229ms
+2024-09-13 13:20:37.460 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 13:20:37.534 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.699ms
+2024-09-13 13:20:43.916 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Product/ExampleMailTest - null null
+2024-09-13 13:20:43.927 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Product/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 13:20:43.939 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 13:20:43.954 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.ProductController (ECommerceAPII.API).
+2024-09-13 13:20:53.853 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API) in 9897.4825ms
+2024-09-13 13:20:53.854 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 13:20:53.880 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 13:20:53.882 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 39
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 21
+   at ECommerceAPII.API.Controllers.ProductController.ExampleMailTest() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/ProductController.cs:line 78
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-13 13:20:53.899 +04:00 [ERR] Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+2024-09-13 13:20:53.906 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Product/ExampleMailTest - 500 null application/json 9989.7347ms
+2024-09-13 13:21:27.359 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Product/ExampleMailTest - null null
+2024-09-13 13:21:27.370 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Product/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 13:21:27.399 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 13:21:27.403 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.ProductController (ECommerceAPII.API).
+2024-09-13 13:21:43.550 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Product/ExampleMailTest - null null
+2024-09-13 13:21:45.113 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Product/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 13:21:48.291 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 13:21:48.308 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.ProductController (ECommerceAPII.API).
+2024-09-13 13:21:56.272 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API) in 28869.5827ms
+2024-09-13 13:21:56.273 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 13:21:56.292 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 13:21:56.292 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+   at System.Net.Mail.SendMailAsyncResult.End(IAsyncResult result)
+   at System.Net.Mail.SmtpClient.SendMailCallback(IAsyncResult result)
+--- End of stack trace from previous location ---
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String[] tos, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 39
+   at ECommerceAPII.Infrastructure.Services.MailService.SendMessageAsync(String to, String subject, String body, Boolean isBodyHtml) in /Users/fermayilhesenov/Projects/ECommerceAPII/Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs:line 21
+   at ECommerceAPII.API.Controllers.ProductController.ExampleMailTest() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Controllers/ProductController.cs:line 78
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API/Program.cs:line 127
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-09-13 13:21:56.293 +04:00 [ERR] Mailbox unavailable. The server response was: SMTP AUTH is required for message submission on port 587
+2024-09-13 13:21:56.293 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Product/ExampleMailTest - 500 null application/json 28935.5386ms
+2024-09-13 13:23:56.587 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 13:23:56.856 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 13:23:56.856 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 13:23:56.857 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 13:23:56.857 +04:00 [INF] Hosting environment: Development
+2024-09-13 13:23:56.857 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 13:23:58.246 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 13:23:58.310 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 64.9165ms
+2024-09-13 13:23:58.342 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 13:23:58.344 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 2.316ms
+2024-09-13 13:23:58.453 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 13:23:58.525 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.9428ms
+2024-09-13 13:24:03.384 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Product/ExampleMailTest - null null
+2024-09-13 13:24:03.397 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Product/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 13:24:03.415 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 13:24:03.430 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.ProductController (ECommerceAPII.API).
+2024-09-13 13:24:11.170 +04:00 [INF] User profile is available. Using '/Users/fermayilhesenov/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-09-13 13:24:11.610 +04:00 [INF] Now listening on: https://localhost:7091
+2024-09-13 13:24:11.610 +04:00 [INF] Now listening on: http://localhost:5288
+2024-09-13 13:24:11.611 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-13 13:24:11.611 +04:00 [INF] Hosting environment: Development
+2024-09-13 13:24:11.611 +04:00 [INF] Content root path: /Users/fermayilhesenov/Projects/ECommerceAPII/Presentation/ECommerceAPII.API
+2024-09-13 13:24:13.068 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.html - null null
+2024-09-13 13:24:13.129 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.html - 200 null text/html;charset=utf-8 61.5069ms
+2024-09-13 13:24:13.200 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/favicon-32x32.png - null null
+2024-09-13 13:24:13.200 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/index.js - null null
+2024-09-13 13:24:13.203 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/index.js - 200 null application/javascript;charset=utf-8 3.3957ms
+2024-09-13 13:24:13.207 +04:00 [INF] The file /favicon-32x32.png was not modified
+2024-09-13 13:24:13.208 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/favicon-32x32.png - 304 null image/png 8.4005ms
+2024-09-13 13:24:13.250 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - null null
+2024-09-13 13:24:13.313 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 63.0205ms
+2024-09-13 13:24:19.737 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7091/Product/ExampleMailTest - null null
+2024-09-13 13:24:19.747 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Product/ExampleMailTest
+Accept: */*
+Host: localhost:7091
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9
+Referer: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-fetch-mode: [Redacted]
+2024-09-13 13:24:19.765 +04:00 [INF] Executing endpoint 'ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 13:24:19.781 +04:00 [INF] Route matched with {action = "ExampleMailTest", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExampleMailTest() on controller ECommerceAPII.API.Controllers.ProductController (ECommerceAPII.API).
+2024-09-13 13:24:21.903 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-09-13 13:24:21.908 +04:00 [INF] Executed action ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API) in 2122.7325ms
+2024-09-13 13:24:21.909 +04:00 [INF] Executed endpoint 'ECommerceAPII.API.Controllers.ProductController.ExampleMailTest (ECommerceAPII.API)'
+2024-09-13 13:24:21.915 +04:00 [INF] Response:
+StatusCode: 200
+2024-09-13 13:24:21.919 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7091/Product/ExampleMailTest - 200 0 null 2182.726ms
