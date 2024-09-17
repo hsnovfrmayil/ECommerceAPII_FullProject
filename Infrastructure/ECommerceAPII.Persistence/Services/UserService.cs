@@ -3,6 +3,7 @@ using ECommerceAPII.Application.Abstractions.Services;
 using ECommerceAPII.Application.DTOs.User;
 using ECommerceAPII.Application.Exceptions;
 using ECommerceAPII.Application.Features.Commands.AppUser.CreateUser;
+using ECommerceAPII.Application.Helpers;
 using ECommerceAPII.Domain.Entities.Identity;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -40,7 +41,7 @@ public class UserService : IUserService
         return response;
     }
 
-    public async Task UpdateRefreshToken(string refreshToken, AppUser user, DateTime accessTokenDate, int addOnAccessTokenDate)
+    public async Task UpdateRefreshTokenAsync(string refreshToken, AppUser user, DateTime accessTokenDate, int addOnAccessTokenDate)
     {
         if (user != null)
         {
@@ -51,5 +52,21 @@ public class UserService : IUserService
         else
             throw new NotFoundUserException();
     }
+
+    public async Task UpdatePasswordAsync(string userId, string resetToken, string newPassword)
+    {
+        AppUser user=await _userManager.FindByIdAsync(userId);
+        if (user != null)
+        {
+            resetToken = resetToken.UrlDecode();
+
+            IdentityResult result = await _userManager.ResetPasswordAsync(user,resetToken,newPassword);
+            if (result.Succeeded)
+                await _userManager.UpdateSecurityStampAsync(user);
+            else
+                throw new PasswordChangeFailedException();
+        }
+    }
+
 }
 

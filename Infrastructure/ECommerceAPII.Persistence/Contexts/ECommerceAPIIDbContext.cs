@@ -29,6 +29,8 @@ public class ECommerceAPIIDbContext : IdentityDbContext<AppUser,AppRole,string>
 
     public DbSet<BasketItem> BasketItems { get; set; }
 
+    public DbSet<CompletedOrder> CompletedOrders { get; set; }
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         builder.Entity<Order>()
@@ -42,6 +44,12 @@ public class ECommerceAPIIDbContext : IdentityDbContext<AppUser,AppRole,string>
             HasOne(b => b.Order).
             WithOne(b => b.Basket)
             .HasForeignKey<Order>(b=>b.Id);
+
+
+        builder.Entity<Order>().
+            HasOne(p => p.CompletedOrder)
+            .WithOne(p => p.Order).
+            HasForeignKey<CompletedOrder>(p=>p.OrderId);
 
         base.OnModelCreating(builder);
     }

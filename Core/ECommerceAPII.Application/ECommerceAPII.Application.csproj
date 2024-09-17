@@ -68,6 +68,15 @@
     <None Remove="Features\Queries\Order\" />
     <None Remove="Features\Queries\Order\GetAllOrders\" />
     <None Remove="Features\Queries\Order\GetOrderById\" />
+    <None Remove="Features\Commands\AppUser\PasswordReset\" />
+    <None Remove="Features\Commands\AppUser\VerifyResetToken\" />
+    <None Remove="Helpers\" />
+    <None Remove="Features\Commands\AppUser\UpdatePassword\" />
+    <None Remove="Repositories\CompletedOrder\" />
+    <None Remove="Features\Commands\Order\CompletedOrder\" />
+    <None Remove="CustomAttributes\" />
+    <None Remove="Enums\" />
+    <None Remove="Consts\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
@@ -128,6 +137,15 @@
     <Folder Include="Features\Queries\Order\" />
     <Folder Include="Features\Queries\Order\GetAllOrders\" />
     <Folder Include="Features\Queries\Order\GetOrderById\" />
+    <Folder Include="Features\Commands\AppUser\PasswordReset\" />
+    <Folder Include="Features\Commands\AppUser\VerifyResetToken\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Features\Commands\AppUser\UpdatePassword\" />
+    <Folder Include="Repositories\CompletedOrder\" />
+    <Folder Include="Features\Commands\Order\CompletedOrder\" />
+    <Folder Include="CustomAttributes\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Consts\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="7.0.0" />

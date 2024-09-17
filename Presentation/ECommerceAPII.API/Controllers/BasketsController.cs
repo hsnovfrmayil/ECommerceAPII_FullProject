@@ -1,4 +1,7 @@
 ﻿using System;
+using ECommerceAPII.Application.Consts;
+using ECommerceAPII.Application.CustomAttributes;
+using ECommerceAPII.Application.Enums;
 using ECommerceAPII.Application.Features.Commands.Basket.AddItemToBasket;
 using ECommerceAPII.Application.Features.Commands.Basket.RemoveBasketItem;
 using ECommerceAPII.Application.Features.Commands.Basket.UpdateQuantity;
@@ -23,6 +26,7 @@ public class BasketsController :ControllerBase
     }
 
     [HttpGet]
+    [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Baskets,ActionType =ActionType.Reading, Definition ="Get Basket Items")]
     public async Task<IActionResult> GetBasketItems([FromQuery]GetBasketItemsQueryRequest getBasketItemsQueryRequest)
     {
         List<GetBasketItemsQueryResponse > response = await _mediator.Send(getBasketItemsQueryRequest);
@@ -30,6 +34,7 @@ public class BasketsController :ControllerBase
     }
 
     [HttpPost]
+    [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Baskets, ActionType = ActionType.Writing, Definition = "Add to Basket")]
     public async Task<IActionResult> AddItemToBasket(AddItemToBasketCommandRequest addItemToBasketCommandRequest)
     {
         AddItemToBasketCommandResponse response = await _mediator.Send(addItemToBasketCommandRequest);
@@ -37,6 +42,7 @@ public class BasketsController :ControllerBase
     }
 
     [HttpPut]
+    [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Baskets, ActionType = ActionType.Deleting, Definition = "Remove Basket Items ")]
     public async Task<IActionResult> UpdateQuantity(UpdateQuantityCommandRequest updateQuantityCommandRequest)
     {
         UpdateQuantityCommandResponse response = await _mediator.Send(updateQuantityCommandRequest);

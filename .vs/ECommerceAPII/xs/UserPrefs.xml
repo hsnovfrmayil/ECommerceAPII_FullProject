@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{17C945AE-977B-4EDF-BE88-F79BB490C0CE}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/ECommerceAPII.API/Controllers/ProductController.cs">
     <Files>
-      <File FileName="Presentation/ECommerceAPII.API/Controllers/OrdersController.cs" Line="25" Column="61" />
-      <File FileName="Infrastructure/ECommerceAPII.Infrastructure/Services/MailService.cs" Line="27" Column="49" />
+      <File FileName="Presentation/ECommerceAPII.API/Controllers/OrdersController.cs" Line="47" Column="4" />
+      <File FileName="Presentation/ECommerceAPII.API/Controllers/ProductController.cs" Line="85" Column="128" />
+      <File FileName="Presentation/ECommerceAPII.API/Controllers/UsersController.cs" Line="25" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,30 +11,21 @@
           <Node name="ECommerceAPII" expanded="True">
             <Node name="Core" expanded="True">
               <Node name="ECommerceAPII.Application">
-                <Node name="DTOs" expanded="True">
-                  <Node name="Order" expanded="True" />
-                </Node>
-                <Node name="Features" expanded="True">
-                  <Node name="Queries" expanded="True">
-                    <Node name="Order" expanded="True">
-                      <Node name="GetAllOrders" expanded="True" />
-                      <Node name="GetOrderById" expanded="True" />
-                    </Node>
-                    <Node name="Product" expanded="True" />
-                  </Node>
-                </Node>
+                <Node name="Consts" expanded="True" />
+                <Node name="CustomAttributes" expanded="True" />
+                <Node name="Enums" expanded="True" />
               </Node>
             </Node>
             <Node name="Infrastructure" expanded="True">
-              <Node name="ECommerceAPII.Infrastructure">
-                <Node name="Services" expanded="True">
-                  <Node name="MailService.cs" selected="True" />
-                </Node>
+              <Node name="ECommerceAPII.Persistence" expanded="True">
+                <Node name="Services" expanded="True" />
               </Node>
             </Node>
-            <Node name="Presentation" expanded="True">
+            <Node name="Presentation">
               <Node name="ECommerceAPII.API">
-                <Node name="Controllers" expanded="True" />
+                <Node name="Controllers" expanded="True">
+                  <Node name="ProductController.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -44,8 +36,8 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Presentation.ECommerceAPII.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

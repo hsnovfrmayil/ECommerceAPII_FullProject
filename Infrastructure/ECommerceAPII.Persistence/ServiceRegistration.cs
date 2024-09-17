@@ -26,7 +26,8 @@ public static class ServiceRegistration
             options.Password.RequireDigit = false;
             options.Password.RequireLowercase = false;
             options.Password.RequireUppercase = false;
-        }).AddEntityFrameworkStores<ECommerceAPIIDbContext>();
+        }).AddEntityFrameworkStores<ECommerceAPIIDbContext>()
+        .AddDefaultTokenProviders();
 
         services.AddSingleton<IProductWriteRepository, ProductWriteRepository>();
         services.AddSingleton<IProductReadRepository, ProductReadRepository>();
@@ -38,6 +39,8 @@ public static class ServiceRegistration
         services.AddSingleton<IBasketWriteRepository, BasketWriteRepository>();
         services.AddSingleton<IBasketItemReadRepository, BasketItemReadRepository>();
         services.AddSingleton<IBasketItemWriteRepository, BasketItemWriteRepository>();
+        services.AddSingleton<ICompletedOrderReadRepository, CompletedOrderReadRepository>();
+        services.AddSingleton<ICompletedOrderWriteRepository, CompletedOrderWriteRepository>();
 
         services.AddSingleton<IProductImageFileReadRepository, ProductImageFileReadRepository>();
         services.AddSingleton<IProductImageFileWriteRepository,ProductImageFileWriteRepository>();

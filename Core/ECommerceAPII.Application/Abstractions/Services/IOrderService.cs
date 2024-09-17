@@ -10,5 +10,7 @@ public interface IOrderService
     Task<ListOrder> GetAllOrdersAsync(int page,int size);
 
     Task<SingleOrder> GetOrderByIdAsync(string id );
+
+    Task CompletedOrderAsync(string id);
 }
 

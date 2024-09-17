@@ -1,6 +1,8 @@
 ﻿using System;
 using ECommerceAPII.Application.Features.Commands.AppUser.GoogleLogin;
 using ECommerceAPII.Application.Features.Commands.AppUser.LoginUser;
+using ECommerceAPII.Application.Features.Commands.AppUser.PasswordReset;
+using ECommerceAPII.Application.Features.Commands.AppUser.VerifyResetToken;
 using ECommerceAPII.Application.Features.Commands.RefreshTokenLogin;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -43,5 +45,19 @@ public class AuthController :ControllerBase
     //    FacebookLoginCommandResponse response = await _mediator.Send(facebookLoginCommandRequest);
     //    return Ok(response);
     //}
+
+    [HttpPost("password-reset")]
+    public async Task<IActionResult> PasswordReset([FromBody]PasswordResetCommandRequest passwordResetCommandRequest)
+    {
+        PasswordResetCommandResponse response = await _mediator.Send(passwordResetCommandRequest);
+        return Ok(response);
+    }
+
+    [HttpPost("verify-reset-token")]
+    public async Task<IActionResult> VerifyResetToken([FromBody] VerifyResetTokenCommandRequest verifyResetTokenCommandRequest)
+    {
+        VerifyResetTokenCommandResponse response = await _mediator.Send(verifyResetTokenCommandRequest);
+        return Ok(response); 
+    }
 }
 

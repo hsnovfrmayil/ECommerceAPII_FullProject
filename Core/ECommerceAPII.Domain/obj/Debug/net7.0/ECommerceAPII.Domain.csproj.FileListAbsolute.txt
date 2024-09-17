@@ -10,3 +10,4 @@
 /Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/refint/ECommerceAPII.Domain.dll
 /Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ECommerceAPII.Domain.pdb
 /Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ref/ECommerceAPII.Domain.dll
+/Users/fermayilhesenov/Projects/ECommerceAPII/Core/ECommerceAPII.Domain/obj/Debug/net7.0/ECommerceAPII.Domain.sourcelink.json
